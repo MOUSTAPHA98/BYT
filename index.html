@@ -109,9 +109,13 @@
     </header>
     <section class="top-destinations">
       <div class="container"> 
-        <div class="row">
+        <div class="row position-relative">
           <div class="col sec-heading"><span class="sec-desc">best choices</span>
             <h3 class="sec-title">top travel destinations</h3>
+          </div>
+          <div class="col sec-nav">
+            <div class="swiper-button-next top-dest-swiper-button-next"><i class="fal fa-chevron-right"></i></div>
+            <div class="swiper-button-prev top-dest-swiper-button-prev"><i class="fal fa-chevron-left"></i></div>
           </div>
         </div>
         <div class="swiper-container top-destinations-swiper">
@@ -179,13 +183,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section><!-- Add Pagination -->
+<!-- Add Arrows -->
     <!-- === SCRIPTS === -->
     <script src="../../dist/js/jquery-3.5.1.js"></script>
     <script src="../../dist/js/bootstrap.bundle.min.js"></script>
     <script src="../../dist/js/owl.carousel.min.js"> </script>
-    <script src="../../dist/js/swiper-bundle.min.js"> </script>
-    <script>$("#gridToggler").on("click", function () { if ($("#gridToggler").prop('checked') === true){ $(".gridView").css("height", "100%") } else { $(".gridView").css("height", "0") } })</script>
+    <script src="../../dist/js/swiper-bundle.min.js"></script>
+    <script src="../../dist/js/jquery.nicescroll.min.js"></script>
     <script src="../../index.js"> </script>
   </body>
 </html>

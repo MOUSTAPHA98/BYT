@@ -609,7 +609,29 @@ header .container .row .formm {
 }
 
 .top-destinations {
-  padding: 50px 0;
+  padding: 60px 0;
+}
+.top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next,
+.top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev {
+  right: 15px;
+  left: auto;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4aacc0;
+  outline: none;
+  border-radius: 5px;
+}
+.top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next i,
+.top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev i {
+  font-size: 20px;
+  color: #4aacc0;
+}
+.top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next::after,
+.top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev::after {
+  content: "";
+}
+.top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev {
+  right: 75px;
 }
 .top-destinations .container .row .sec-heading {
   padding-bottom: 50px;

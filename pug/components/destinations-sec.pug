@@ -1,9 +1,14 @@
 section.top-destinations
     .container 
-        .row
+        .row.position-relative
             .col.sec-heading
                 span.sec-desc best choices
                 h3.sec-title top travel destinations
+            .col.sec-nav
+                div(class="swiper-button-next top-dest-swiper-button-next")
+                    <i class="fal fa-chevron-right"></i>
+                div(class="swiper-button-prev top-dest-swiper-button-prev")
+                    <i class="fal fa-chevron-left"></i>
         div(class="swiper-container top-destinations-swiper")
             div(class="swiper-wrapper")
                 each i in ['cairo', 'giza', 'alexandria', 'luxor', 'aswan', 'hurghada']
@@ -16,3 +21,10 @@ section.top-destinations
                                 p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.
                             div(class="card-body") 
                                 a(href="#" class="card-link") Read more
+
+
+<!-- Add Pagination -->
+//- <div class="swiper-pagination"></div>
+<!-- Add Arrows -->
+//- <div class="swiper-button-next"></div>
+//- <div class="swiper-button-prev"></div>

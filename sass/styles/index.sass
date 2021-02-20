@@ -10,6 +10,24 @@
     padding: $secP
     .container 
         .row
+            .sec-nav
+                .swiper-button-next.top-dest-swiper-button-next,
+                .swiper-button-prev.top-dest-swiper-button-prev
+                    
+                    right: 15px
+                    left: auto
+                    width: 40px
+                    height: 40px
+                    border: 2px solid $reqBtn-SecColor
+                    outline: none
+                    border-radius: 5px
+                    i
+                        font-size: 20px
+                        color: $reqBtn-SecColor
+                    &::after
+                        content: ""
+                .swiper-button-prev.top-dest-swiper-button-prev
+                    right: 75px
             .sec-heading
                 padding-bottom: 50px
                 .sec-desc
