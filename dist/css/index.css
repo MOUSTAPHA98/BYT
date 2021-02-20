@@ -78,16 +78,39 @@
   src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
   font-weight: 900;
 }
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-html::-webkit-scrollbar {
-  width: 0 !important;
-}
-
 body {
   font-family: "karla";
+}
+
+.sec-heading {
+  padding-bottom: 50px;
+}
+.sec-heading .sec-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #879097;
+}
+.sec-heading .sec-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  position: relative;
+  padding: 0.75rem 0;
+  line-height: 1;
+}
+.sec-heading .sec-title::after {
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background: #4aacc0;
 }
 
 @font-face {
@@ -170,16 +193,39 @@ body {
   src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
   font-weight: 900;
 }
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-html::-webkit-scrollbar {
-  width: 0 !important;
-}
-
 body {
   font-family: "karla";
+}
+
+.sec-heading {
+  padding-bottom: 50px;
+}
+.sec-heading .sec-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #879097;
+}
+.sec-heading .sec-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  position: relative;
+  padding: 0.75rem 0;
+  line-height: 1;
+}
+.sec-heading .sec-title::after {
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background: #4aacc0;
 }
 
 .gridView {
@@ -279,16 +325,39 @@ body {
   src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
   font-weight: 900;
 }
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-html::-webkit-scrollbar {
-  width: 0 !important;
-}
-
 body {
   font-family: "karla";
+}
+
+.sec-heading {
+  padding-bottom: 50px;
+}
+.sec-heading .sec-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #879097;
+}
+.sec-heading .sec-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  position: relative;
+  padding: 0.75rem 0;
+  line-height: 1;
+}
+.sec-heading .sec-title::after {
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background: #4aacc0;
 }
 
 .head-bar {
@@ -436,16 +505,39 @@ body {
   src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
   font-weight: 900;
 }
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-html::-webkit-scrollbar {
-  width: 0 !important;
-}
-
 body {
   font-family: "karla";
+}
+
+.sec-heading {
+  padding-bottom: 50px;
+}
+.sec-heading .sec-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #879097;
+}
+.sec-heading .sec-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  position: relative;
+  padding: 0.75rem 0;
+  line-height: 1;
+}
+.sec-heading .sec-title::after {
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background: #4aacc0;
 }
 
 .navigation {
@@ -609,7 +701,7 @@ header .container .row .formm {
 }
 
 .top-destinations {
-  padding: 60px 0;
+  padding: 75px 0;
 }
 .top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next,
 .top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev {
@@ -634,35 +726,8 @@ header .container .row .formm {
 .top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev {
   right: 75px;
 }
-.top-destinations .container .row .sec-heading {
-  padding-bottom: 50px;
-}
-.top-destinations .container .row .sec-heading .sec-desc {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: -1px;
-  color: #879097;
-}
-.top-destinations .container .row .sec-heading .sec-title {
-  margin: 0;
-  text-transform: uppercase;
-  color: #2c3740;
-  font-family: raleway;
-  font-weight: 900;
-  position: relative;
-  padding: 0.75rem 0;
-  line-height: 1;
-}
-.top-destinations .container .row .sec-heading .sec-title::after {
-  position: absolute;
-  content: "";
-  width: 100px;
-  height: 2px;
-  left: 0;
-  bottom: 0;
-  display: block;
-  background: #4aacc0;
+.top-destinations .container .top-destinations-swiper {
+  padding: 10px 0;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide {
   box-shadow: 1px 5px 10px #00000025;
@@ -697,6 +762,65 @@ header .container .row .formm {
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-link:hover {
   text-decoration: underline;
+}
+
+.features {
+  padding: 75px 0;
+  padding-top: 0;
+}
+.features .container .row.position-relative .sec-title {
+  line-height: 1.25;
+}
+.features .container .row.position-relative .sec-text {
+  color: #879097;
+  padding: 25px 0;
+  padding-bottom: 40px;
+}
+.features .container .row.position-relative .sec-link {
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: metropolis;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 1.25rem 2rem;
+  box-shadow: 1px 1px 5px #00000055;
+  background: #e04622;
+}
+.features .container .row.position-relative .col-12 .feature-item {
+  padding: 20px 0;
+  border: 1px solid #85858536;
+  box-shadow: 1px 1px 5px #77777727;
+  margin-bottom: 30px;
+}
+.features .container .row.position-relative .col-12 .feature-item .fea-text, .features .container .row.position-relative .col-12 .feature-item .fea-icon {
+  padding: 0 20px;
+}
+.features .container .row.position-relative .col-12 .feature-item .fea-text {
+  padding-left: 0;
+}
+.features .container .row.position-relative .col-12 .feature-item .fea-text .fea-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  position: relative;
+  padding-bottom: 10px;
+}
+.features .container .row.position-relative .col-12 .feature-item .fea-text .fea-title::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background: #4aacc0;
+}
+.features .container .row.position-relative .col-12 .feature-item .fea-text p {
+  color: #879097;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=index.css.map */

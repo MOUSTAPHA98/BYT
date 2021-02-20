@@ -5,17 +5,17 @@ section.top-destinations
                 span.sec-desc best choices
                 h3.sec-title top travel destinations
             .col.sec-nav
-                div(class="swiper-button-next top-dest-swiper-button-next")
-                    <i class="fal fa-chevron-right"></i>
-                div(class="swiper-button-prev top-dest-swiper-button-prev")
-                    <i class="fal fa-chevron-left"></i>
+                //- div(class="swiper-button-next top-dest-swiper-button-next")
+                //-     <i class="fal fa-chevron-right"></i>
+                //- div(class="swiper-button-prev top-dest-swiper-button-prev")
+                //-     <i class="fal fa-chevron-left"></i>
         div(class="swiper-container top-destinations-swiper")
             div(class="swiper-wrapper")
                 each i in ['cairo', 'giza', 'alexandria', 'luxor', 'aswan', 'hurghada']
                     div(class="swiper-slide")
                         div(class="card") 
                             .card-img
-                                img(src='../../dist/images/top-dest/'+i+'.webp' class="card-img-top img-fluid" alt="...") 
+                                img(src='../../dist/images/top-dest/'+i+'.webp' loading="lazy" class="card-img-top img-fluid" alt="...") 
                             div(class="card-body pb-0") 
                                 h5(class="card-title") #{i}
                                 p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.

@@ -40,7 +40,7 @@ $(document).ready(function () {
         
         $("body").niceScroll({
             cursorcolor: "#e04622", // change cursor color in hex
-            scrollspeed: 500, // scrolling speed
+            scrollspeed: 400, // scrolling speed
             mousescrollstep: 30, // scrolling speed with 
             cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
             cursorborder: "0", // css definition for cursor border
