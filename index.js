@@ -4,7 +4,7 @@ $("#gridToggler").on("click", function () { if ($("#gridToggler").prop('checked'
 var swiper = new Swiper('.top-destinations-swiper', {
     centeredSlides: false,
     autoplay: {
-    delay: 6000,
+    delay: 5000,
     },
     pagination: {
     el: '.swiper-pagination',
@@ -32,8 +32,7 @@ var swiper = new Swiper('.top-destinations-swiper', {
 });
 
 // 1. Simple mode, it styles document scrollbar:
-window.onscroll = function () {
-    console.log(window.innerWidth);
+$(document).ready(function () {
     if (window.innerWidth >= 1024){
         $(function() {  
             $("body").niceScroll();
@@ -48,4 +47,6 @@ window.onscroll = function () {
             smoothscroll: true, // scroll with ease movement
         });
     }
-}
+})
+
+    
