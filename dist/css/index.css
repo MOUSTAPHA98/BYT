@@ -613,6 +613,7 @@ header .container .row .formm {
 }
 .top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next,
 .top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev {
+  top: 35%;
   right: 15px;
   left: auto;
   width: 40px;
