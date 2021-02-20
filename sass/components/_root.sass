@@ -1,0 +1,114 @@
+///////////////////////////////////////////////////////////
+//                        FONTS                         
+///////////////////////////////////////////////////////////
+
+//  KARLA
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf)
+  font-weight: 200
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-Light.ttf)
+  font-weight: 300
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-Regular.ttf)
+  font-weight: 400
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-Medium.ttf)
+  font-weight: 500
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf)
+  font-weight: 600
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-Bold.ttf)
+  font-weight: 700
+@font-face 
+  font-family: karla
+  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf)
+  font-weight: 800
+
+
+//  METROPOLIS
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf)
+  font-weight: 100
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf)
+  font-weight: 200
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf)
+  font-weight: 300
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf)
+  font-weight: 400
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf)
+  font-weight: 500
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf)
+  font-weight: 600
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf)
+  font-weight: 700
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf)
+  font-weight: 800
+@font-face 
+  font-family: metropolis
+  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf)
+  font-weight: 900
+
+
+///////////////////////////////////////////////////////////
+//                        COLORS                         
+///////////////////////////////////////////////////////////
+
+$mainBackColor: #FFF
+$head-bar-BackColor: #eaedf0
+$head-bar-TextColor: #54667a
+$reqBtn-BackColor: #e04622
+$reqBtn-SecColor: #4aacc0
+$mainFontFamily: "karla"
+$navbarBackColor: #314555
+$mainDarkTextColor: #2c3740
+$secDarkTextColor: #879097
+
+$elementP: 20px 0
+$elementP_Y: 20px
+
+$secP: 50px 0
+$secP_Y: 50px
+
+///////////////////////////////////////////////////////////
+//                        VARIABLES                         
+///////////////////////////////////////////////////////////
+
+@mixin hideScrollbar
+  &::-webkit-scrollbar 
+    width: 0 !important
+  -ms-overflow-style: none
+  scrollbar-width: none
+
+html
+  @include hideScrollbar
+
+///////////////////////////////////////////////////////////
+//                        GLOBAL                         
+///////////////////////////////////////////////////////////
+
+body
+    font-family: $mainFontFamily
+    // height: 1000000px

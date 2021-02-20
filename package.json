@@ -1,0 +1,11 @@
+{
+  "name": "book-your-train",
+  "version": "1.0.0",
+  "description": "THEBES ACADEMY CE 2021 GRADUATION PROJECT",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "THEBES CE 2021",
+  "license": "ISC"
+}

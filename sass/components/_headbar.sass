@@ -1,0 +1,59 @@
+//- Will be deleted in the end
+@import "./_root"
+    
+// START HEAD BAR STYLE
+.head-bar
+    background: linear-gradient(to right, $head-bar-BackColor 50%, $mainBackColor 50%, $mainBackColor)
+    letter-spacing: -.1rem
+    .container
+        background: $head-bar-BackColor
+        .row
+            background: linear-gradient(to right, $head-bar-BackColor 75%, $mainBackColor)
+            .mail-us
+                .mail-link
+                    font-weight: 500
+                    color: $head-bar-TextColor
+                    text-decoration: none
+                    &:hover
+                        color: $reqBtn-BackColor
+            .user-actions
+                .btn
+                    padding: 0.75rem 1rem
+                    text-transform: uppercase
+                    font-weight: 500
+                    color: $head-bar-TextColor
+                .btn:not(:last-of-type)
+                    border: none
+                    border-left: 1px solid #00000020
+                    &:hover
+                        color: $reqBtn-BackColor
+                .req
+                    overflow: hidden
+                    position: relative
+                    padding: .8rem 2rem !important
+                    color: #fff !important
+                    background: $reqBtn-BackColor
+                    &:hover
+                        background: $reqBtn-SecColor
+                    &::after
+                        position: absolute
+                        content: ''
+                        right: -.5px
+                        top: 0
+                        border-width: 3rem 1.2rem
+                        border-style: solid
+                        border-color: $mainBackColor $mainBackColor transparent transparent 
+                        transform: rotateX(180deg) !important
+// END HEAD BAR STYLE
+
+
+// START HEAD BAR STYLE MEDIA QUERIES
+@media screen and ( max-width:991px  )
+    .head-bar, .head-bar .container, .head-bar .row, .user-actions
+        background: $head-bar-BackColor
+    .head-bar .container .row .user-actions .req::after
+        display: none
+    .navigation .container nav .navbar-nav .nav-item:first-of-type::after
+        display: none
+// END HEAD BAR STYLE MEDIA QUERIES
+

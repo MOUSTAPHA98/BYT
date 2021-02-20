@@ -1,0 +1,18 @@
+section.top-destinations
+    .container 
+        .row
+            .col.sec-heading
+                span.sec-desc best choices
+                h3.sec-title top travel destinations
+        div(class="swiper-container top-destinations-swiper")
+            div(class="swiper-wrapper")
+                each i in ['cairo', 'giza', 'alexandria', 'luxor', 'aswan', 'hurghada']
+                    div(class="swiper-slide")
+                        div(class="card") 
+                            .card-img
+                                img(src='../../dist/images/top-dest/'+i+'.jpg' class="card-img-top img-fluid" alt="...") 
+                            div(class="card-body pb-0") 
+                                h5(class="card-title") #{i}
+                                p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.
+                            div(class="card-body") 
+                                a(href="#" class="card-link") Read more

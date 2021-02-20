@@ -1,0 +1,679 @@
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
+  font-weight: 900;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  font-family: "karla";
+}
+
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
+  font-weight: 900;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  font-family: "karla";
+}
+
+.gridView {
+  margin-top: -0.1rem;
+  position: fixed;
+  z-index: 1000000;
+}
+.gridView input {
+  position: absolute;
+  z-index: 1000001;
+}
+.gridView .container .row .col {
+  height: 0;
+  outline: 0.1rem solid rgba(0, 0, 255, 0.3);
+}
+.gridView .container .row .col div {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
+  font-weight: 900;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  font-family: "karla";
+}
+
+.head-bar {
+  background: linear-gradient(to right, #eaedf0 50%, #FFF 50%, #FFF);
+  letter-spacing: -0.1rem;
+}
+.head-bar .container {
+  background: #eaedf0;
+}
+.head-bar .container .row {
+  background: linear-gradient(to right, #eaedf0 75%, #FFF);
+}
+.head-bar .container .row .mail-us .mail-link {
+  font-weight: 500;
+  color: #54667a;
+  text-decoration: none;
+}
+.head-bar .container .row .mail-us .mail-link:hover {
+  color: #e04622;
+}
+.head-bar .container .row .user-actions .btn {
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #54667a;
+}
+.head-bar .container .row .user-actions .btn:not(:last-of-type) {
+  border: none;
+  border-left: 1px solid #00000020;
+}
+.head-bar .container .row .user-actions .btn:not(:last-of-type):hover {
+  color: #e04622;
+}
+.head-bar .container .row .user-actions .req {
+  overflow: hidden;
+  position: relative;
+  padding: 0.8rem 2rem !important;
+  color: #fff !important;
+  background: #e04622;
+}
+.head-bar .container .row .user-actions .req:hover {
+  background: #4aacc0;
+}
+.head-bar .container .row .user-actions .req::after {
+  position: absolute;
+  content: "";
+  right: -0.5px;
+  top: 0;
+  border-width: 3rem 1.2rem;
+  border-style: solid;
+  border-color: #FFF #FFF transparent transparent;
+  transform: rotateX(180deg) !important;
+}
+
+@media screen and (max-width: 991px) {
+  .head-bar, .head-bar .container, .head-bar .row, .user-actions {
+    background: #eaedf0;
+  }
+
+  .head-bar .container .row .user-actions .req::after {
+    display: none;
+  }
+
+  .navigation .container nav .navbar-nav .nav-item:first-of-type::after {
+    display: none;
+  }
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
+  font-weight: 900;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  font-family: "karla";
+}
+
+.navigation {
+  background: #FFF;
+  position: relative;
+}
+.navigation .colorbar {
+  display: block;
+  width: 100%;
+  height: 48px;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to left, #314555 50%, #FFF 50%, #FFF);
+}
+.navigation .container nav .navbar-brand {
+  color: #2c3740;
+}
+.navigation .container nav .navbar-brand h6 {
+  font-family: metropolis;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+.navigation .container nav .navbar-brand h6 span {
+  font-weight: 300;
+}
+.navigation .container nav .navbar-brand h6 .slogan {
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  font-weight: 100;
+  margin-left: 3px;
+}
+.navigation .container nav .navbar-toggler span {
+  color: #e04622;
+  font-size: 30px;
+}
+.navigation .container nav .navbar-nav {
+  background: #314555;
+}
+.navigation .container nav .navbar-nav .nav-item:first-of-type {
+  padding-left: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.navigation .container nav .navbar-nav .nav-item:first-of-type::after {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 0;
+  border-width: 3rem 1.2rem;
+  border-style: solid;
+  border-color: #FFF #FFF transparent transparent;
+  transform: rotateY(180deg) !important;
+}
+.navigation .container nav .navbar-nav .nav-item .nav-link {
+  padding: 0.75rem 1.5rem;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.navigation .container nav .navbar-nav .nav-item:not(:last-of-type) {
+  border-right: 1px solid #ffffff15;
+}
+.navigation .container nav .navbar-nav .nav-item.active {
+  background: #e04622;
+}
+.navigation .container nav .call-us-area {
+  padding: 1.25rem 0;
+  color: #54667a;
+  text-transform: uppercase;
+}
+.navigation .container nav .call-us-area i {
+  font-size: 2.5rem;
+  padding-right: 0.5rem;
+}
+.navigation .container nav .call-us-area span:first-of-type {
+  font-size: 14px;
+  padding-right: 0.5rem;
+  border-right: 1px solid #00000020;
+  line-height: 1.25rem;
+  line-height: 1rem;
+}
+.navigation .container nav .call-us-area .p-no {
+  margin-right: 24px;
+  padding-left: 0.5rem;
+  font-size: 24px;
+  font-family: metropolis;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1199px) {
+  .navigation .container nav .navbar-nav .nav-item .nav-link {
+    padding: 0.75rem 1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navigation .container nav .navbar-nav .nav-item:first-of-type {
+    padding-left: 0;
+  }
+
+  .navigation .navbar {
+    padding: 2rem 1rem !important;
+  }
+  .navigation .navbar-collapse {
+    margin: 2rem 0;
+  }
+}
+header {
+  min-height: 625px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../../dist/images/header/header-bg.jpg") center no-repeat;
+  background-size: cover !important;
+}
+header .container .row .header-heading {
+  font-family: metropolis;
+  color: #FFF;
+}
+header .container .row .header-heading > span {
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #2c3740;
+  background-color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  padding-right: 3rem;
+  clip-path: polygon(0 0, 92.5% 0, 100% 100%, 0% 100%);
+}
+header .container .row .header-heading h6 {
+  padding: 20px 0;
+  font-size: 3.75rem;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+header .container .row .header-heading h6 span {
+  font-weight: 300;
+}
+header .container .row .header-heading h6 .slogan {
+  font-family: "karla";
+  font-size: 0.75rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+header .container .row .header-heading p {
+  padding: 5px 0;
+  font-family: "karla";
+  font-weight: 300;
+}
+header .container .row .header-heading button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.9rem 2rem;
+  box-shadow: 1px 1px 5px #00000055;
+  background: #e04622;
+}
+header .container .row .formm {
+  min-height: 500px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.top-destinations {
+  padding: 50px 0;
+}
+.top-destinations .container .row .sec-heading {
+  padding-bottom: 50px;
+}
+.top-destinations .container .row .sec-heading .sec-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #879097;
+}
+.top-destinations .container .row .sec-heading .sec-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  position: relative;
+  padding: 0.75rem 0;
+  line-height: 1;
+}
+.top-destinations .container .row .sec-heading .sec-title::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background: #4aacc0;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide {
+  box-shadow: 1px 5px 10px #00000025;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-img {
+  height: 230px;
+  overflow: hidden;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 1s;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-img img:hover {
+  transition: 3s;
+  transform: scale(1.05);
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-title {
+  color: #2c3740;
+  font-family: metropolis;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-text {
+  color: #879097;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-link {
+  text-transform: uppercase;
+}
+.top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-link:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=index.css.map */

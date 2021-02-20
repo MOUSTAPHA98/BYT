@@ -1,0 +1,100 @@
+//- Will be deleted in the end
+@import "./_root"
+    
+    
+// START NAVBAR STYLE
+.navigation
+    background: $mainBackColor
+    position: relative
+    .colorbar
+        display: block
+        width: 100%
+        height: 48px
+        background: red
+        position: absolute
+        bottom: 0
+        background: linear-gradient(to left, $navbarBackColor 50%, $mainBackColor 50%, $mainBackColor)
+    .container
+        nav
+            .navbar-brand
+                color: $mainDarkTextColor
+                h6
+                    font-family: metropolis
+                    font-size: 1.5rem
+                    letter-spacing: -1px
+                    font-weight: 900
+                    span
+                        font-weight: 300
+                    .slogan
+                        font-size: .75rem
+                        letter-spacing: .25rem
+                        font-weight: 100
+                        margin-left: 3px
+            .navbar-toggler
+                span
+                    color: $reqBtn-BackColor
+                    font-size: 30px
+            .navbar-nav
+                background: $navbarBackColor
+                .nav-item:first-of-type
+                    padding-left: 1.5rem
+                    position: relative
+                    overflow: hidden
+                    &::after
+                        position: absolute
+                        content: ''
+                        left: -14px
+                        top: 0
+                        border-width: 3rem 1.2rem
+                        border-style: solid
+                        border-color: $mainBackColor $mainBackColor transparent transparent 
+                        transform: rotateY(180deg) !important
+                .nav-item
+                    .nav-link
+                        padding: .75rem 1.5rem
+                        color: $mainBackColor
+                        text-transform: uppercase
+                        font-weight: 300
+                .nav-item:not(:last-of-type)
+                    border-right: 1px solid #ffffff15
+                .nav-item.active
+                    background: $reqBtn-BackColor
+            .call-us-area
+                padding: 1.25rem 0
+                color: $head-bar-TextColor
+                text-transform: uppercase
+                i
+                    font-size: 2.5rem
+                    padding-right: .5rem
+                span:first-of-type
+                    font-size: 14px
+                    padding-right: .5rem
+                    border-right: 1px solid #00000020
+                    line-height: 1.25rem
+                    line-height: 1rem
+                .p-no
+                    margin-right: 24px
+                    padding-left: .5rem
+                    font-size: 24px
+                    font-family: metropolis
+                    font-weight: 700
+// END NAVBAR STYLE
+
+// START NAVBAR STYLE MEDIA QUERIES
+@media screen and ( max-width:1199px  )
+    .navigation 
+        .container nav 
+            .navbar-nav 
+                .nav-item 
+                    .nav-link
+                        padding: 0.75rem 1rem
+                        
+@media screen and ( max-width:991px  )
+    .navigation .container nav .navbar-nav .nav-item:first-of-type
+        padding-left: 0
+    .navigation
+        .navbar
+            padding: 2rem 1rem !important
+        .navbar-collapse
+            margin: 2rem 0
+// END NAVBAR STYLE MEDIA QUERIES
