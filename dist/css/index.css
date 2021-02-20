@@ -730,7 +730,6 @@ header .container .row .formm {
   padding: 10px 0;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide {
-  box-shadow: 1px 5px 10px #00000025;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -766,17 +765,16 @@ header .container .row .formm {
 
 .features {
   padding: 75px 0;
-  padding-top: 0;
 }
-.features .container .row.position-relative .sec-title {
+.features .container .row .sec-title {
   line-height: 1.25;
 }
-.features .container .row.position-relative .sec-text {
+.features .container .row .sec-text {
   color: #879097;
   padding: 25px 0;
   padding-bottom: 40px;
 }
-.features .container .row.position-relative .sec-link {
+.features .container .row .sec-link {
   text-decoration: none;
   margin-top: 10px;
   font-family: metropolis;
@@ -786,19 +784,19 @@ header .container .row .formm {
   box-shadow: 1px 1px 5px #00000055;
   background: #e04622;
 }
-.features .container .row.position-relative .col-12 .feature-item {
-  padding: 20px 0;
+.features .container .row .col-12 .feature-item {
+  padding: 25px 0;
   border: 1px solid #85858536;
   box-shadow: 1px 1px 5px #77777727;
   margin-bottom: 30px;
 }
-.features .container .row.position-relative .col-12 .feature-item .fea-text, .features .container .row.position-relative .col-12 .feature-item .fea-icon {
+.features .container .row .col-12 .feature-item .fea-text, .features .container .row .col-12 .feature-item .fea-icon {
   padding: 0 20px;
 }
-.features .container .row.position-relative .col-12 .feature-item .fea-text {
+.features .container .row .col-12 .feature-item .fea-text {
   padding-left: 0;
 }
-.features .container .row.position-relative .col-12 .feature-item .fea-text .fea-title {
+.features .container .row .col-12 .feature-item .fea-text .fea-title {
   font-size: 20px;
   text-transform: uppercase;
   color: #2c3740;
@@ -807,7 +805,7 @@ header .container .row .formm {
   position: relative;
   padding-bottom: 10px;
 }
-.features .container .row.position-relative .col-12 .feature-item .fea-text .fea-title::after {
+.features .container .row .col-12 .feature-item .fea-text .fea-title::after {
   position: absolute;
   content: "";
   width: 50px;
@@ -817,7 +815,7 @@ header .container .row .formm {
   display: block;
   background: #4aacc0;
 }
-.features .container .row.position-relative .col-12 .feature-item .fea-text p {
+.features .container .row .col-12 .feature-item .fea-text p {
   color: #879097;
   margin-bottom: 0;
   font-size: 14px;
