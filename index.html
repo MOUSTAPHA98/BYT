@@ -96,6 +96,7 @@
       </div>
     </div>
     <!-- === End Nav Bar ===-->
+    <!-- === Start Home Header Section === -->
     <header class="d-flex align-items-center">
       <div class="container">
         <div class="row">
@@ -107,13 +108,18 @@
         </div>
       </div>
     </header>
+    <!-- === End Home Header Section === -->
+    <!-- === Start Top-Dest Section === -->
     <section class="top-destinations">
       <div class="container"> 
         <div class="row position-relative">
           <div class="col sec-heading"><span class="sec-desc">best choices</span>
             <h3 class="sec-title">top travel destinations</h3>
           </div>
-          <div class="col sec-nav"></div>
+          <div class="col sec-nav">
+            <div class="swiper-button-next top-dest-swiper-button-next"><i class="fal fa-chevron-right"></i></div>
+            <div class="swiper-button-prev top-dest-swiper-button-prev"><i class="fal fa-chevron-left"></i></div>
+          </div>
         </div>
         <div class="swiper-container top-destinations-swiper">
           <div class="swiper-wrapper">
@@ -180,8 +186,9 @@
           </div>
         </div>
       </div>
-    </section><!-- Add Pagination -->
-<!-- Add Arrows -->
+    </section>
+    <!-- === End Top-Dest Section === -->
+    <!-- === Start Features Section === -->
     <section class="features">
       <div class="container"> 
         <div class="row">
@@ -224,12 +231,36 @@
         </div>
       </div>
     </section>
+    <!-- === End Features Section === -->
+    <div class="aboutUs-mini-sec">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="aboutUs-sec-img col p-0"></div>
+          <div class="aboutUs-sec-content col p-0">
+            <div class="mission-message">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row no-gutters aboutUs-sec-heading">
+              <div class="col d-flex flex-column justify-content-start"><span class="sec-desc">little about us</span>
+                <h3 class="sec-title">about book your train</h3>
+                <p class="sec-text m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minima quis tempore praesentium exercitationem earum placeat sunt quod excepturi beatae pariatur vitae molestiae dolorem porro explicabo.</p>
+              </div>
+            </div>
+            <div class="row no-gutters sec-mission-message">
+              <div class="col d-flex flex-column justify-content-end">
+                <h3 class="sec-title">our project mission statement</h3><span class="sec-desc">message from the desk of our managing  director</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- === SCRIPTS === -->
     <script src="../../dist/js/jquery-3.5.1.js"></script>
     <script src="../../dist/js/bootstrap.bundle.min.js"></script>
     <script src="../../dist/js/owl.carousel.min.js"> </script>
     <script src="../../dist/js/swiper-bundle.min.js"></script>
     <script src="../../dist/js/jquery.nicescroll.min.js"></script>
-    <script src="../../index.js"></script>
+    <script src="../../dist/js/index.js"></script>
   </body>
 </html>

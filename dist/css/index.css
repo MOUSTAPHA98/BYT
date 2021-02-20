@@ -82,17 +82,17 @@ body {
   font-family: "karla";
 }
 
-.sec-heading {
+.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
   padding-bottom: 50px;
 }
-.sec-heading .sec-desc {
+.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: -1px;
   color: #879097;
 }
-.sec-heading .sec-title {
+.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
   margin: 0;
   text-transform: uppercase;
   color: #2c3740;
@@ -102,7 +102,7 @@ body {
   padding: 0.75rem 0;
   line-height: 1;
 }
-.sec-heading .sec-title::after {
+.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
   position: absolute;
   content: "";
   width: 75px;
@@ -197,17 +197,17 @@ body {
   font-family: "karla";
 }
 
-.sec-heading {
+.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
   padding-bottom: 50px;
 }
-.sec-heading .sec-desc {
+.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: -1px;
   color: #879097;
 }
-.sec-heading .sec-title {
+.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
   margin: 0;
   text-transform: uppercase;
   color: #2c3740;
@@ -217,7 +217,7 @@ body {
   padding: 0.75rem 0;
   line-height: 1;
 }
-.sec-heading .sec-title::after {
+.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
   position: absolute;
   content: "";
   width: 75px;
@@ -329,17 +329,17 @@ body {
   font-family: "karla";
 }
 
-.sec-heading {
+.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
   padding-bottom: 50px;
 }
-.sec-heading .sec-desc {
+.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: -1px;
   color: #879097;
 }
-.sec-heading .sec-title {
+.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
   margin: 0;
   text-transform: uppercase;
   color: #2c3740;
@@ -349,7 +349,7 @@ body {
   padding: 0.75rem 0;
   line-height: 1;
 }
-.sec-heading .sec-title::after {
+.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
   position: absolute;
   content: "";
   width: 75px;
@@ -509,17 +509,17 @@ body {
   font-family: "karla";
 }
 
-.sec-heading {
+.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
   padding-bottom: 50px;
 }
-.sec-heading .sec-desc {
+.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: -1px;
   color: #879097;
 }
-.sec-heading .sec-title {
+.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
   margin: 0;
   text-transform: uppercase;
   color: #2c3740;
@@ -529,7 +529,7 @@ body {
   padding: 0.75rem 0;
   line-height: 1;
 }
-.sec-heading .sec-title::after {
+.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
   position: absolute;
   content: "";
   width: 75px;
@@ -648,7 +648,7 @@ body {
 }
 header {
   min-height: 625px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../../dist/images/header/header-bg.jpg") center no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../../dist/images/header/header-bg.jpg") center no-repeat;
   background-size: cover !important;
 }
 header .container .row .header-heading {
@@ -708,16 +708,16 @@ header .container .row .formm {
   top: 35%;
   right: 15px;
   left: auto;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #4aacc0;
   outline: none;
-  border-radius: 5px;
 }
 .top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next i,
 .top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev i {
-  font-size: 20px;
+  font-size: 24px;
   color: #4aacc0;
+}
+.top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next:hover i,
+.top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev:hover i {
+  color: #e04622;
 }
 .top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next::after,
 .top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev::after {
@@ -758,6 +758,7 @@ header .container .row .formm {
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-link {
   text-transform: uppercase;
+  color: #4aacc0;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-link:hover {
   text-decoration: underline;
@@ -765,6 +766,7 @@ header .container .row .formm {
 
 .features {
   padding: 75px 0;
+  padding-top: 0;
 }
 .features .container .row .sec-title {
   line-height: 1.25;
@@ -818,7 +820,62 @@ header .container .row .formm {
 .features .container .row .col-12 .feature-item .fea-text p {
   color: #879097;
   margin-bottom: 0;
-  font-size: 14px;
+  line-height: 24px;
+}
+
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../../dist/images/header/aboutUs-bg.jpg") center no-repeat;
+  background-size: cover !important;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content {
+  background: #314555;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+  position: absolute;
+  top: 270px;
+  padding: 0rem 4rem;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message p {
+  max-width: 491.2px;
+  margin: 0;
+  padding: 1.25rem;
+  background: #4aacc0;
+  color: #FFF;
+  position: relative;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message p::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  bottom: -18px;
+  left: 0;
+  background: #4aacc0;
+  display: block;
+  position: absolute;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading {
+  padding: 3rem 4rem;
+  padding-bottom: 6rem;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .col h3 {
+  color: #FFF;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .col p {
+  max-width: 491.2px;
+  padding-top: 1.25rem;
+  color: #879097;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
+  padding: 3rem 4rem;
+  padding-top: 5rem;
+  background: #eaedf0;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .col h3 {
+  color: #2c3740;
+}
+.aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .col span {
+  color: #879097;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -8,14 +8,12 @@
                     top: 35%
                     right: 15px
                     left: auto
-                    width: 40px
-                    height: 40px
-                    border: 2px solid $reqBtn-SecColor
                     outline: none
-                    border-radius: 5px
                     i
-                        font-size: 20px
+                        font-size: 24px
                         color: $reqBtn-SecColor
+                    &:hover i
+                        color: $reqBtn-BackColor
                     &::after
                         content: ""
                 .swiper-button-prev.top-dest-swiper-button-prev
@@ -48,5 +46,6 @@
                             color: $secDarkTextColor
                         .card-link
                             text-transform: uppercase
+                            color: $reqBtn-SecColor
                             &:hover
                                 text-decoration: underline
