@@ -128,7 +128,7 @@ body {
 }
 
 .sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
@@ -313,7 +313,7 @@ body {
 }
 
 .sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
@@ -515,7 +515,7 @@ body {
 }
 
 .sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
@@ -765,7 +765,7 @@ body {
 }
 
 .sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
   font-size: 14px;
@@ -981,14 +981,12 @@ header .container .row .formm {
 }
 
 .top-destinations {
-  padding: 75px 0;
-}
-.top-destinations .container .top-destinations-swiper {
-  padding: 10px 0;
+  padding-top: 80px;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide {
   border-radius: 0.5rem;
   overflow: hidden;
+  padding: 10px 0;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-img {
   height: 230px;
@@ -1018,32 +1016,31 @@ header .container .row .formm {
 }
 
 .features {
-  padding: 75px 0;
-  padding-top: 0;
+  padding: 80px 0;
 }
-.features .container .row .sec-title {
-  line-height: 1.25;
-}
-.features .container .row .sec-text {
-  color: #879097;
-  padding: 25px 0;
-  padding-bottom: 40px;
+.features .container .row .sec-heading, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .aboutUs-sec-heading, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .sec-mission-message {
+  padding: 0 15px;
 }
 .features .container .row .sec-link {
   text-decoration: none;
-  margin-top: 10px;
   font-family: metropolis;
   color: #FFF;
   text-transform: uppercase;
-  padding: 1.25rem 2rem;
+  padding: 1rem 1.75rem;
   box-shadow: 1px 1px 5px #00000055;
   background: #e04622;
+  display: inline-block;
+}
+.features .container .row p {
+  margin: 1.25rem 0;
+}
+.features .container .row .col-12 .feature-item:first-of-type {
+  margin-bottom: 30px;
 }
 .features .container .row .col-12 .feature-item {
   padding: 25px 0;
   border: 1px solid #85858536;
   box-shadow: 1px 1px 5px #77777727;
-  margin-bottom: 30px;
 }
 .features .container .row .col-12 .feature-item .fea-text, .features .container .row .col-12 .feature-item .fea-icon {
   padding: 0 20px;
@@ -1133,10 +1130,7 @@ header .container .row .formm {
 }
 
 .latest-news-sec {
-  padding-top: 75px;
-}
-.latest-news-sec .container .latest-blog-post .blog-post {
-  margin-bottom: 30px;
+  padding: 80px 0;
 }
 .latest-news-sec .container .latest-blog-post .blog-post .card .card-img {
   position: relative;
@@ -1190,10 +1184,13 @@ header .container .row .formm {
 }
 
 .testimonials {
-  padding: 75px 0;
+  padding-bottom: 80px;
 }
 .testimonials .container .testimonials-swiper .testimonial {
   color: #2c3740;
+}
+.testimonials .container .testimonials-swiper .testimonial .card-body {
+  margin: 1.4rem 1.25rem;
 }
 .testimonials .container .testimonials-swiper .testimonial .testimonial-name {
   margin: 0;
@@ -1211,12 +1208,33 @@ header .container .row .formm {
 }
 .testimonials .container .testimonials-swiper .testimonial .testimonial-text {
   color: #2c3740;
-  padding: 10px 0;
+  padding: 1rem 0;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  font-size: 14px;
 }
 .testimonials .container .testimonials-swiper .testimonial i {
-  padding: 1rem 0;
   color: #879097;
   opacity: 0.5;
+}
+
+.contactUs-link {
+  background: #4aacc0;
+  padding: 30px 0;
+}
+.contactUs-link .container .row .col-lg-10 {
+  padding-bottom: 0;
+}
+.contactUs-link .container .row .col-lg-10 h3, .contactUs-link .container .row .col-lg-10 p {
+  color: #FFF;
+}
+.contactUs-link .container .row .col-lg-2 button {
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.9rem 2rem;
+  box-shadow: 1px 1px 5px #00000055;
+  background: #e04622;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=index.css.map */
