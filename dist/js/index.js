@@ -1,6 +1,5 @@
 $("#gridToggler").on("click", function () { if ($("#gridToggler").prop('checked') === true){ $(".gridView").css("height", "100%") } else { $(".gridView").css("height", "0") } })
 
-
 var swiper = new Swiper('.top-destinations-swiper', {
     centeredSlides: false,
     autoplay: {
@@ -37,7 +36,6 @@ $(document).ready(function () {
         $(function() {  
             $("body").niceScroll();
         });
-        
         $("body").niceScroll({
             cursorcolor: "#e04622", // change cursor color in hex
             scrollspeed: 300, // scrolling speed
@@ -49,4 +47,3 @@ $(document).ready(function () {
     }
 })
 
-    
