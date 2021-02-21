@@ -1,0 +1,53 @@
+.aboutUs-mini-sec
+    // overflow: hidden
+    .container-fluid
+        .row
+            .aboutUs-sec-img
+                background: linear-gradient(to top, rgba(0,0,0,.4),rgba(0,0,0,.3)) ,url('../../dist/images/header/aboutUs-bg.jpg') center no-repeat
+                background-size: cover !important
+            .aboutUs-sec-content
+                background: $navbarBackColor
+                .mission-message
+                    position: absolute
+                    top: 270px
+                    padding:  0rem 4rem
+                    p
+                        max-width: 491.2px
+                        margin: 0
+                        padding: 1.25rem
+                        background: $reqBtn-SecColor
+                        color: $mainBackColor
+                        position: relative
+                        &::after
+                            content: ""
+                            width: 20px
+                            height: 20px
+                            bottom: -18px
+                            left: 0
+                            background: $reqBtn-SecColor
+                            display: block
+                            position: absolute
+                            clip-path: polygon(0 0, 0% 100%, 100% 0)
+                
+                .aboutUs-sec-heading
+                    @extend .sec-heading
+                    padding: 3rem 4rem
+                    padding-bottom: 6rem
+                    .col
+                        h3
+                            color: $mainBackColor
+                        p
+                            max-width: 491.2px
+                            padding-top: 1.25rem
+                            color: $secDarkTextColor
+                .sec-mission-message
+                    @extend .sec-heading
+                    padding: 3rem 4rem
+                    padding-top: 5rem
+                    background: $head-bar-BackColor
+                    .col
+                        h3
+                            color: $mainDarkTextColor
+                        span
+                            margin-top: 15px
+                            color: $secDarkTextColor

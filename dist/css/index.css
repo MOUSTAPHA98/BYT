@@ -886,7 +886,7 @@ header .container .row .formm {
 .top-destinations .container .row .sec-nav .swiper-button-next.top-dest-swiper-button-next,
 .top-destinations .container .row .sec-nav .swiper-button-prev.top-dest-swiper-button-prev {
   top: 35%;
-  right: 15px;
+  right: 10px;
   left: auto;
   outline: none;
 }
@@ -918,14 +918,10 @@ header .container .row .formm {
   overflow: hidden;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-img img {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: 1s;
+  transition: 6s;
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-img img:hover {
-  transition: 3s;
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 .top-destinations .container .top-destinations-swiper .swiper-slide .card .card-body .card-title {
   color: #2c3740;
@@ -1055,7 +1051,62 @@ header .container .row .formm {
   color: #2c3740;
 }
 .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .col span {
+  margin-top: 15px;
   color: #879097;
+}
+
+.top-destinations .container .latest-blog-post .blog-post .card .card-img {
+  position: relative;
+  height: 230px;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-img .post-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background: #e04622;
+  color: #FFF;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-img .post-date span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-img .post-date span:nth-of-type(2) {
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-title {
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
+  line-height: 1.3;
+  padding: 0.75rem 0;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-text {
+  color: #879097;
+  line-height: 24px;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-link {
+  text-transform: uppercase;
+  color: #4aacc0;
+}
+.top-destinations .container .latest-blog-post .blog-post .card .card-link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.css.map */
