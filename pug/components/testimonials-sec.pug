@@ -1,0 +1,23 @@
+// === Start Testimonials Section === 
+section.testimonials
+    .container 
+        .row.position-relative
+            .col.sec-heading
+                span.sec-desc what people say
+                h3.sec-title testimonials
+            .col.sec-nav
+                div(class="swiper-button-next testimonials-swiper-button-next") 
+                    i(class="fal fa-chevron-right")
+                div(class="swiper-button-prev testimonials-swiper-button-prev")
+                    i(class="fal fa-chevron-left")
+        div(class="swiper-container testimonials-swiper")
+            div(class="swiper-wrapper")
+                -for(var i=0; i<=5; i++)
+                    div(class="swiper-slide")
+                        div(class="card testimonial") 
+                            div(class="card-body")
+                                i(class="fa fa-quote-left d-block fa-3x")
+                                p(class="testimonial-text") Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quasi fugit voluptas. Facere repellat nostrum provident ex odit dolor ad. Corrupti voluptatum, voluptate laudantium dignissimos doloribus non odio tempore suscipit?
+                                h5(class="testimonial-name") Johnathan doe
+                                span(class="testimonial-rule") designer, web developer
+// === End Testimonials Section === 
