@@ -169,13 +169,13 @@ body
       padding: .75rem 0
       line-height: 1
       &::after
+          display: block
           position: absolute
           content: ""
           width: 75px
           height: 2px
           left: 0
           bottom: 0
-          display: block
           background: $reqBtn-SecColor
 
 .swiper-button-next,
@@ -194,3 +194,48 @@ body
 .swiper-button-prev
     right: 75px
             
+
+%sec-btn
+  position: relative
+  padding: .75rem 2rem !important
+  color: #fff !important
+  background: $reqBtn-BackColor
+  display: inline-block
+
+%el-slope-cut-RL
+  &::after
+    position: absolute
+    content: ''
+    right: -15px
+    top: 0
+    height: 100%
+    width: 15px
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%)
+    clip-path: polygon(100% 0, 0 0, 0 100%)
+
+    background: $reqBtn-BackColor
+
+%el-slope-cut-LR
+  &::after
+    position: absolute
+    content: ''
+    left: -15px
+    top: 0
+    height: 101%
+    width: 15px
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%)
+    background: $reqBtn-BackColor
+
+%brand-logo
+  h6
+    font-family: metropolis
+    font-size: 1.5rem
+    letter-spacing: -1px
+    font-weight: 900
+    span
+        font-weight: 300
+    .slogan
+        font-size: .75rem
+        letter-spacing: .25rem
+        font-weight: 100
+        margin-left: .25rem

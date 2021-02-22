@@ -49,3 +49,18 @@
                         text-transform: uppercase
                         color: $reqBtn-SecColor
                         &:hover
+
+
+// END LATEST NEWS SECTION STYLE MEDIA QUERIES
+@media screen and ( max-width:767px  )
+    .latest-news-sec
+        text-align: center
+        h3:after
+            display: none !important
+@media screen and ( max-width:991px )
+    .latest-news-sec
+        .container
+            .row
+                .blog-post:not(last-of-type)
+                    margin-bottom: 30px !important 
+// END LATEST NEWS SECTION STYLE MEDIA QUERIES

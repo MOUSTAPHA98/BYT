@@ -1,0 +1,25 @@
+.contactUs-link
+    background: $reqBtn-SecColor
+    padding: 30px 0 
+    .container 
+        .row
+            .col-lg-10
+                padding-bottom: 0
+                h3,p
+                    color: $mainBackColor
+            .col-lg-2
+                button
+                    @extend %sec-btn
+
+// START CONTACT US AREA MEDIA QUERIES
+@media screen and ( max-width:767px  )
+    .contactUs-link
+        padding: 3rem 0
+        text-align: center
+        h3:after
+            display: none !important
+        .col-lg-2
+                button
+                    margin: 1.5rem 0
+                    margin-bottom: 0
+// END CONTACT US AREA MEDIA QUERIES

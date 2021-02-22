@@ -1,5 +1,4 @@
 .aboutUs-mini-sec
-    // overflow: hidden
     .container-fluid
         .row
             .aboutUs-sec-img
@@ -9,7 +8,7 @@
                 background: $navbarBackColor
                 .mission-message
                     position: absolute
-                    top: 270px
+                    top: 250px
                     padding:  0rem 4rem
                     p
                         max-width: 491.2px
@@ -51,3 +50,58 @@
                         span
                             margin-top: 15px
                             color: $secDarkTextColor
+
+// START ABOUT US AREA MEDIA QUERIES
+
+@media screen and ( max-width: 1233px)
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message
+        top: 270px !important
+@media screen and ( max-width: 1020px)
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message
+        top: 290px !important
+@media screen and ( max-width: 991px)
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-img
+        height: 350px
+    .aboutUs-mini-sec
+        p
+            max-width: 100% !important
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message
+        top: 250px !important
+    .container-md-i
+        width: 720px
+        padding-right: 15px
+        padding-left: 15px
+        margin-right: auto
+        margin-left: auto
+    .aboutUs-mini-sec .container-fluid .row
+        padding-right: 0 !important
+        padding-left: 0 !important
+    .mission-message
+        padding: 0 !important
+        min-width: 100% !important
+        left: auto
+        right: auto
+@media screen and ( max-width: 767px)
+    .container-md-i
+        width: auto
+        padding-right: 15px
+        padding-left: 15px
+        margin-right: auto
+        margin-left: auto
+    .aboutUs-mini-sec
+        text-align: center
+        h3:after
+            display: none !important
+@media screen and ( max-width: 518px)
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message
+        top: 270px !important
+@media screen and ( max-width: 412px)
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message
+        top: 290px !important
+@media screen and ( max-width: 388px)
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message
+        top: 315px !important
+    .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message
+        padding-top: 6rem !important
+
+// END ABOUT US AREA MEDIA QUERIES

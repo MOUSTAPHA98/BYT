@@ -148,13 +148,13 @@ body {
   line-height: 1;
 }
 .sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
+  display: block;
   position: absolute;
   content: "";
   width: 75px;
   height: 2px;
   left: 0;
   bottom: 0;
-  display: block;
   background: #4aacc0;
 }
 
@@ -183,659 +183,37 @@ body {
   right: 75px;
 }
 
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
-  font-weight: 900;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Thin.ttf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-ExtraLight.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-semiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-ExtraBold.ttf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Black.ttf);
-  font-weight: 900;
-}
-body {
-  font-family: "karla";
-}
-
-.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 60px;
-}
-.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: -1px;
-  color: #879097;
-}
-.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
-  margin: 0;
-  text-transform: uppercase;
-  color: #2c3740;
-  font-family: raleway;
-  font-weight: 900;
+.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-2 button {
   position: relative;
-  padding: 0.75rem 0;
-  line-height: 1;
-}
-.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
-  position: absolute;
-  content: "";
-  width: 75px;
-  height: 2px;
-  left: 0;
-  bottom: 0;
-  display: block;
-  background: #4aacc0;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  top: 35%;
-  right: 10px;
-  left: auto;
-  outline: none;
-}
-.swiper-button-next i,
-.swiper-button-prev i {
-  font-size: 24px;
-  color: #4aacc0;
-}
-.swiper-button-next:hover i,
-.swiper-button-prev:hover i {
-  color: #e04622;
-}
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  content: "";
-}
-
-.swiper-button-prev {
-  right: 75px;
-}
-
-.gridView {
-  margin-top: -0.1rem;
-  position: fixed;
-  z-index: 1000000;
-}
-.gridView input {
-  position: absolute;
-  z-index: 1000001;
-}
-.gridView .container .row .col {
-  height: 0;
-  outline: 0.1rem solid rgba(0, 0, 255, 0.3);
-}
-.gridView .container .row .col div {
-  background: rgba(255, 0, 0, 0.2);
-}
-
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
-  font-weight: 900;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Thin.ttf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-ExtraLight.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-semiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-ExtraBold.ttf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Black.ttf);
-  font-weight: 900;
-}
-body {
-  font-family: "karla";
-}
-
-.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 60px;
-}
-.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: -1px;
-  color: #879097;
-}
-.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
-  margin: 0;
-  text-transform: uppercase;
-  color: #2c3740;
-  font-family: raleway;
-  font-weight: 900;
-  position: relative;
-  padding: 0.75rem 0;
-  line-height: 1;
-}
-.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
-  position: absolute;
-  content: "";
-  width: 75px;
-  height: 2px;
-  left: 0;
-  bottom: 0;
-  display: block;
-  background: #4aacc0;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  top: 35%;
-  right: 10px;
-  left: auto;
-  outline: none;
-}
-.swiper-button-next i,
-.swiper-button-prev i {
-  font-size: 24px;
-  color: #4aacc0;
-}
-.swiper-button-next:hover i,
-.swiper-button-prev:hover i {
-  color: #e04622;
-}
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  content: "";
-}
-
-.swiper-button-prev {
-  right: 75px;
-}
-
-.head-bar {
-  background: linear-gradient(to right, #eaedf0 50%, #FFF 50%, #FFF);
-  letter-spacing: -0.1rem;
-}
-.head-bar .container {
-  background: #eaedf0;
-}
-.head-bar .container .row {
-  background: linear-gradient(to right, #eaedf0 75%, #FFF);
-}
-.head-bar .container .row .mail-us .mail-link {
-  font-weight: 500;
-  color: #54667a;
-  text-decoration: none;
-}
-.head-bar .container .row .mail-us .mail-link:hover {
-  color: #e04622;
-}
-.head-bar .container .row .user-actions .btn {
-  padding: 0.75rem 1rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #54667a;
-}
-.head-bar .container .row .user-actions .btn:not(:last-of-type) {
-  border: none;
-  border-left: 1px solid #00000020;
-}
-.head-bar .container .row .user-actions .btn:not(:last-of-type):hover {
-  color: #e04622;
-}
-.head-bar .container .row .user-actions .req {
-  overflow: hidden;
-  position: relative;
-  padding: 0.8rem 2rem !important;
+  padding: 0.75rem 2rem !important;
   color: #fff !important;
   background: #e04622;
+  display: inline-block;
 }
-.head-bar .container .row .user-actions .req:hover {
-  background: #4aacc0;
-}
-.head-bar .container .row .user-actions .req::after {
+
+.head-bar .container .row .user-actions .req-quote-btn::after {
   position: absolute;
   content: "";
-  right: -0.5px;
+  right: -15px;
   top: 0;
-  border-width: 3rem 1.2rem;
-  border-style: solid;
-  border-color: #FFF #FFF transparent transparent;
-  transform: rotateX(180deg) !important;
+  height: 100%;
+  width: 15px;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  background: #e04622;
 }
 
-@media screen and (max-width: 991px) {
-  .head-bar, .head-bar .container, .head-bar .row, .user-actions {
-    background: #eaedf0;
-  }
-
-  .head-bar .container .row .user-actions .req::after {
-    display: none;
-  }
-
-  .navigation .container nav .navbar-nav .nav-item:first-of-type::after {
-    display: none;
-  }
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: karla;
-  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: metropolis;
-  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
-  font-weight: 900;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Thin.ttf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-ExtraLight.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-semiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-ExtraBold.ttf);
-  font-weight: 800;
-}
-@font-face {
-  font-family: raleway;
-  src: url(../../dist/fonts/Raleway/Raleway-Black.ttf);
-  font-weight: 900;
-}
-body {
-  font-family: "karla";
-}
-
-.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
-  padding-bottom: 60px;
-}
-.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: -1px;
-  color: #879097;
-}
-.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
-  margin: 0;
-  text-transform: uppercase;
-  color: #2c3740;
-  font-family: raleway;
-  font-weight: 900;
-  position: relative;
-  padding: 0.75rem 0;
-  line-height: 1;
-}
-.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
+.navigation .container nav .navbar-nav .nav-item:first-of-type::after {
   position: absolute;
   content: "";
-  width: 75px;
-  height: 2px;
-  left: 0;
-  bottom: 0;
-  display: block;
-  background: #4aacc0;
+  left: -15px;
+  top: 0;
+  height: 101%;
+  width: 15px;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  background: #e04622;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  top: 35%;
-  right: 10px;
-  left: auto;
-  outline: none;
-}
-.swiper-button-next i,
-.swiper-button-prev i {
-  font-size: 24px;
-  color: #4aacc0;
-}
-.swiper-button-next:hover i,
-.swiper-button-prev:hover i {
-  color: #e04622;
-}
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  content: "";
-}
-
-.swiper-button-prev {
-  right: 75px;
-}
-
-.navigation {
-  background: #FFF;
-  position: relative;
-}
-.navigation .colorbar {
-  display: block;
-  width: 100%;
-  height: 48px;
-  background: red;
-  position: absolute;
-  bottom: 0;
-  background: linear-gradient(to left, #314555 50%, #FFF 50%, #FFF);
-}
-.navigation .container nav .navbar-brand {
-  color: #2c3740;
-}
 .navigation .container nav .navbar-brand h6 {
   font-family: metropolis;
   font-size: 1.5rem;
@@ -849,29 +227,324 @@ body {
   font-size: 0.75rem;
   letter-spacing: 0.25rem;
   font-weight: 100;
-  margin-left: 3px;
+  margin-left: 0.25rem;
 }
-.navigation .container nav .navbar-toggler span {
-  color: #e04622;
-  font-size: 30px;
+
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraLight.ttf);
+  font-weight: 200;
 }
-.navigation .container nav .navbar-nav {
-  background: #314555;
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Light.ttf);
+  font-weight: 300;
 }
-.navigation .container nav .navbar-nav .nav-item:first-of-type {
-  padding-left: 1.5rem;
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-semiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: karla;
+  src: url(../../dist/fonts/Karla/Karla-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraLight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-semiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-ExtraBold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../../dist/fonts/Metropolis/Metropolis-Black.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-Thin.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-semiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: raleway;
+  src: url(../../dist/fonts/Raleway/Raleway-Black.ttf);
+  font-weight: 900;
+}
+body {
+  font-family: "karla";
+}
+
+.sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
+  padding-bottom: 60px;
+}
+.sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-desc, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #879097;
+}
+.sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #2c3740;
+  font-family: raleway;
+  font-weight: 900;
   position: relative;
-  overflow: hidden;
+  padding: 0.75rem 0;
+  line-height: 1;
 }
+.sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title::after, .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: #4aacc0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 35%;
+  right: 10px;
+  left: auto;
+  outline: none;
+}
+.swiper-button-next i,
+.swiper-button-prev i {
+  font-size: 24px;
+  color: #4aacc0;
+}
+.swiper-button-next:hover i,
+.swiper-button-prev:hover i {
+  color: #e04622;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+}
+
+.swiper-button-prev {
+  right: 75px;
+}
+
+.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-2 button {
+  position: relative;
+  padding: 0.75rem 2rem !important;
+  color: #fff !important;
+  background: #e04622;
+  display: inline-block;
+}
+
+.head-bar .container .row .user-actions .req-quote-btn::after {
+  position: absolute;
+  content: "";
+  right: -15px;
+  top: 0;
+  height: 100%;
+  width: 15px;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  background: #e04622;
+}
+
 .navigation .container nav .navbar-nav .nav-item:first-of-type::after {
   position: absolute;
   content: "";
-  left: -14px;
+  left: -15px;
   top: 0;
-  border-width: 3rem 1.2rem;
-  border-style: solid;
-  border-color: #FFF #FFF transparent transparent;
-  transform: rotateY(180deg) !important;
+  height: 101%;
+  width: 15px;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  background: #e04622;
+}
+
+.navigation .container nav .navbar-brand h6 {
+  font-family: metropolis;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+.navigation .container nav .navbar-brand h6 span {
+  font-weight: 300;
+}
+.navigation .container nav .navbar-brand h6 .slogan {
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  font-weight: 100;
+  margin-left: 0.25rem;
+}
+
+.gridView {
+  margin-top: -0.1rem;
+  position: fixed;
+  z-index: 1000000;
+  top: 0;
+  left: 0;
+}
+.gridView input {
+  position: absolute;
+  z-index: 1000001;
+}
+.gridView .container .row .col {
+  height: 0;
+  outline: 0.1rem solid rgba(0, 0, 255, 0.3);
+}
+.gridView .container .row .col div {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+.head-bar {
+  overflow: hidden;
+  letter-spacing: -2px;
+  background: linear-gradient(to right, #eaedf0 50%, #FFF 50%, #FFF);
+}
+.head-bar .container {
+  background: #eaedf0;
+}
+.head-bar .container .row {
+  align-items: center;
+  background: linear-gradient(to right, #eaedf0 80%, #FFF);
+}
+.head-bar .container .row .mail-us .mail-link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #54667a;
+}
+.head-bar .container .row .mail-us .mail-link:hover {
+  color: #e04622;
+}
+.head-bar .container .row .user-actions .btn {
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+  color: #54667a;
+}
+.head-bar .container .row .user-actions .btn:not(:last-of-type) {
+  border-left: 1px solid #00000020 !important;
+}
+.head-bar .container .row .user-actions .btn:not(:last-of-type):hover {
+  color: #e04622;
+}
+.head-bar .container .row .user-actions .req-quote-btn:hover {
+  background: #4aacc0;
+}
+
+@media screen and (max-width: 991px) {
+  .head-bar, .head-bar .container, .head-bar .row, .user-actions {
+    background: #eaedf0;
+  }
+
+  .head-bar .container .row .user-actions .req-quote-btn::after {
+    display: none;
+  }
+}
+.navigation {
+  position: relative;
+  background: #FFF;
+}
+.navigation .colorbar {
+  bottom: 0;
+  padding: 1.5rem 0;
+  position: absolute;
+  background: linear-gradient(to left, #314555 50%, #FFF 50%, #FFF);
+}
+.navigation .container nav .navbar-toggler span {
+  color: #e04622;
+  font-size: 2rem;
+}
+.navigation .container nav .navbar-brand {
+  color: #2c3740;
+}
+.navigation .container nav .navbar-nav {
+  background: #314555;
 }
 .navigation .container nav .navbar-nav .nav-item .nav-link {
   padding: 0.75rem 1.5rem;
@@ -879,14 +552,20 @@ body {
   text-transform: uppercase;
   font-weight: 300;
 }
-.navigation .container nav .navbar-nav .nav-item:not(:last-of-type) {
-  border-right: 1px solid #ffffff15;
-}
 .navigation .container nav .navbar-nav .nav-item.active {
   background: #e04622;
 }
+.navigation .container nav .navbar-nav .nav-item:first-of-type {
+  position: relative;
+}
+.navigation .container nav .navbar-nav .nav-item:last-of-type .nav-link {
+  padding-right: 0;
+}
+.navigation .container nav .navbar-nav .nav-item:not(:last-of-type) {
+  border-right: 1px solid #ffffff15;
+}
 .navigation .container nav .call-us-area {
-  padding: 1.25rem 0;
+  padding: 1.3rem 0;
   color: #54667a;
   text-transform: uppercase;
 }
@@ -895,16 +574,15 @@ body {
   padding-right: 0.5rem;
 }
 .navigation .container nav .call-us-area span:first-of-type {
-  font-size: 14px;
+  font-size: 0.9rem;
   padding-right: 0.5rem;
   border-right: 1px solid #00000020;
   line-height: 1.25rem;
   line-height: 1rem;
 }
 .navigation .container nav .call-us-area .p-no {
-  margin-right: 24px;
   padding-left: 0.5rem;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: metropolis;
   font-weight: 700;
 }
@@ -915,15 +593,24 @@ body {
   }
 }
 @media screen and (max-width: 991px) {
+  .navigation .container nav .navbar-nav .nav-item .nav-link {
+    padding: 1rem 15px;
+  }
+
   .navigation .container nav .navbar-nav .nav-item:first-of-type {
     padding-left: 0;
   }
 
   .navigation .navbar {
-    padding: 2rem 1rem !important;
+    padding: 2rem 15px !important;
   }
   .navigation .navbar-collapse {
     margin: 2rem 0;
+    padding: 0;
+  }
+
+  .navigation .container nav .navbar-nav .nav-item:first-of-type::after {
+    display: none;
   }
 }
 header {
@@ -1015,6 +702,14 @@ header .container .row .formm {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 767px) {
+  .top-destinations {
+    text-align: center;
+  }
+  .top-destinations h3:after {
+    display: none !important;
+  }
+}
 .features {
   padding: 80px 0;
 }
@@ -1073,6 +768,34 @@ header .container .row .formm {
   line-height: 24px;
 }
 
+@media screen and (max-width: 767px) {
+  .features {
+    text-align: center;
+  }
+  .features h3:after {
+    display: none !important;
+  }
+  .features .feature-item {
+    flex-direction: column !important;
+  }
+  .features .feature-item:not(last-of-type) {
+    margin-bottom: 30px !important;
+  }
+  .features .feature-item:not(last-of-type) .fea-title {
+    margin-bottom: 0 !important;
+  }
+  .features .feature-item:not(last-of-type) .fea-title:after {
+    display: none !important;
+  }
+  .features .feature-item:not(last-of-type) .fea-text {
+    padding: 15px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .features .container .row .sec-heading, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .aboutUs-sec-heading, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .sec-mission-message {
+    padding-bottom: 80px;
+  }
+}
 .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-img {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../../dist/images/header/aboutUs-bg.jpg") center no-repeat;
   background-size: cover !important;
@@ -1082,7 +805,7 @@ header .container .row .formm {
 }
 .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
   position: absolute;
-  top: 270px;
+  top: 250px;
   padding: 0rem 4rem;
 }
 .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message p {
@@ -1129,6 +852,84 @@ header .container .row .formm {
   color: #879097;
 }
 
+@media screen and (max-width: 1233px) {
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+    top: 270px !important;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+    top: 290px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-img {
+    height: 350px;
+  }
+
+  .aboutUs-mini-sec p {
+    max-width: 100% !important;
+  }
+
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+    top: 250px !important;
+  }
+
+  .container-md-i {
+    width: 720px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .aboutUs-mini-sec .container-fluid .row {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .mission-message {
+    padding: 0 !important;
+    min-width: 100% !important;
+    left: auto;
+    right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container-md-i {
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .aboutUs-mini-sec {
+    text-align: center;
+  }
+  .aboutUs-mini-sec h3:after {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 518px) {
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+    top: 270px !important;
+  }
+}
+@media screen and (max-width: 412px) {
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+    top: 290px !important;
+  }
+}
+@media screen and (max-width: 388px) {
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .mission-message {
+    top: 315px !important;
+  }
+
+  .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message {
+    padding-top: 6rem !important;
+  }
+}
 .latest-news-sec {
   padding: 80px 0;
 }
@@ -1183,6 +984,19 @@ header .container .row .formm {
   color: #4aacc0;
 }
 
+@media screen and (max-width: 767px) {
+  .latest-news-sec {
+    text-align: center;
+  }
+  .latest-news-sec h3:after {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .latest-news-sec .container .row .blog-post:not(last-of-type) {
+    margin-bottom: 30px !important;
+  }
+}
 .testimonials {
   padding-bottom: 80px;
 }
@@ -1218,6 +1032,14 @@ header .container .row .formm {
   opacity: 0.5;
 }
 
+@media screen and (max-width: 767px) {
+  .testimonials {
+    text-align: center;
+  }
+  .testimonials h3:after {
+    display: none !important;
+  }
+}
 .contactUs-link {
   background: #4aacc0;
   padding: 30px 0;
@@ -1228,13 +1050,38 @@ header .container .row .formm {
 .contactUs-link .container .row .col-lg-10 h3, .contactUs-link .container .row .col-lg-10 p {
   color: #FFF;
 }
-.contactUs-link .container .row .col-lg-2 button {
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.9rem 2rem;
-  box-shadow: 1px 1px 5px #00000055;
-  background: #e04622;
+
+@media screen and (max-width: 767px) {
+  .contactUs-link {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .contactUs-link h3:after {
+    display: none !important;
+  }
+  .contactUs-link .col-lg-2 button {
+    margin: 1.5rem 0;
+    margin-bottom: 0;
+  }
+}
+menu.nav-menu {
+  padding: 0;
+  margin: 0;
+  background: #314555;
   color: #FFF;
+}
+menu.nav-menu .container .row .col .row .col.sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.sec-mission-message, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.sec-mission-message {
+  padding-bottom: 0;
+}
+menu.nav-menu .container .row .col .row .col.sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.sec-mission-message h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.sec-mission-message h3 {
+  color: #FFF;
+}
+menu.nav-menu .container .row .col .row .col a {
+  text-transform: uppercase;
+  color: #879097;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #87909731;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=index.css.map */

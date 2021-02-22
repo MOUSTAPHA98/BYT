@@ -47,3 +47,27 @@
                             color: $secDarkTextColor
                             margin-bottom: 0
                             line-height: 24px
+
+// END FEATURES SECTION STYLE MEDIA QUERIES
+@media screen and ( max-width:767px  )
+    .features
+        text-align: center
+        h3:after
+            display: none !important
+        .feature-item
+            flex-direction: column !important
+        .feature-item:not(last-of-type)
+            margin-bottom: 30px !important
+            .fea-title
+                margin-bottom: 0 !important
+            .fea-title:after
+                display: none !important
+            .fea-text
+                padding: 15px !important
+@media screen and ( max-width:991px )
+    .features
+        .container
+            .row
+                .sec-heading
+                    padding-bottom: $secP-Y 
+// END FEATURES SECTION STYLE MEDIA QUERIES

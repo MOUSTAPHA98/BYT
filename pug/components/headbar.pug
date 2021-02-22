@@ -1,13 +1,13 @@
 // === Start Head Bar === 
 .head-bar.d-none.d-md-block
-    .container 
-        .row.align-items-center
-            .col.mail-us
+    .container
+        .row
+            .mail-us.col
                 a.mail-link(href="mailto:info@bookyourtrain.me") 
-                    i(class="fas fa-envelope-open mr-2")
+                    i.fas.fa-envelope-open.mr-2
                     |Email us to : info@bookyourtrain.me
-            .col.text-right.user-actions
-                a.login-btn(class="btn rounded-0" href="#" role="button">Link) Log in
-                a.signup-btn(class="btn rounded-0" href="#" role="button">Link) Sign Up
-                a.req(class="btn rounded-0 border-0" href="#" role="button">Link) request a quote
+            .user-actions.col.text-right
+                a.login-btn.btn.rounded-0.border-0(href="#" role="button") Log in
+                a.signup-btn.btn.rounded-0.border-0(href="#" role="button") Sign Up
+                a.req-quote-btn.btn.rounded-0.border-0(href="#" role="button") request a quote
 // === End Head Bar ===

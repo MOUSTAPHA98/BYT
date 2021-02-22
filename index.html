@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content=" (BOOK YOUR TRAIN) Thebes Academy Computer Engineering Graduation Project (2021)">
-    <meta name="author" content="Thebes Academy CE 2021">
     <meta name="theme-color" content="#e04622">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../dist/images/tt.png" type="image/x-icon">
-    <link rel="stylesheet" href="../../dist/css/lib/fontawesome.min.css">
+    <meta name="author" content="Thebes Academy CE 2021">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content=" (BOOK YOUR TRAIN) Thebes Academy Computer Engineering Graduation Project (2021)">
+    <link rel="apple-touch-icon" href="../../dist/images/favicon.png">
+    <link rel="icon" href="../../dist/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../dist/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../../dist/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../../dist/css/lib/fontawesome.min.css">
     <link rel="stylesheet" href="../../dist/css/lib/swiper-bundle.min.css">
     <link rel="stylesheet" href="../../dist/css/index.css">
     <title>BOOK YOUR TRAIN | HOME</title>
   </head>
-  <body>
+  <body> 
     <!-- === Start Grid View Layer === -->
     <div class="gridView w-100">
       <input id="gridToggler" type="checkbox">
@@ -62,17 +64,17 @@
     <!-- === End Grid View Layer === -->
     <!-- === Start Head Bar === -->
     <div class="head-bar d-none d-md-block">
-      <div class="container"> 
-        <div class="row align-items-center">
-          <div class="col mail-us"><a class="mail-link" href="mailto:info@bookyourtrain.me"> <i class="fas fa-envelope-open mr-2"></i>Email us to : info@bookyourtrain.me</a></div>
-          <div class="col text-right user-actions"><a class="login-btn btn rounded-0" href="#">Log in</a><a class="signup-btn btn rounded-0" href="#">Sign Up</a><a class="req btn rounded-0 border-0" href="#">request a quote</a></div>
+      <div class="container">
+        <div class="row">
+          <div class="mail-us col"><a class="mail-link" href="mailto:info@bookyourtrain.me"> <i class="fas fa-envelope-open mr-2"></i>Email us to : info@bookyourtrain.me</a></div>
+          <div class="user-actions col text-right"><a class="login-btn btn rounded-0 border-0" href="#" role="button">Log in</a><a class="signup-btn btn rounded-0 border-0" href="#" role="button">Sign Up</a><a class="req-quote-btn btn rounded-0 border-0" href="#" role="button">request a quote</a></div>
         </div>
       </div>
     </div>
     <!-- === End Head Bar ===-->
     <!-- === Start Nav Bar === -->
     <div class="navigation">
-      <div class="colorbar d-none d-lg-block"></div>
+      <div class="colorbar d-none d-lg-block w-100"></div>
       <div class="container">
         <nav class="navbar navbar-expand-lg row pt-0 pb-0 align-items-stretch"><a class="navbar-brand col col-lg-3 p-0 d-flex align-items-center" href="index.html"><i class="fal fa-train fa-2x mr-2"></i>
             <h6 class="m-0">BOOK <span>YOUR</span> TRAIN<span class="slogan d-block">LOGISTIC & TRANSPORT</span></h6></a>
@@ -113,7 +115,7 @@
           <div class="col sec-heading"><span class="sec-desc">best choices</span>
             <h3 class="sec-title">top travel destinations</h3>
           </div>
-          <div class="col sec-nav">
+          <div class="col sec-nav d-none d-md-block">
             <div class="swiper-button-next top-dest-swiper-button-next"> <i class="fal fa-chevron-right"></i></div>
             <div class="swiper-button-prev top-dest-swiper-button-prev"><i class="fal fa-chevron-left"></i></div>
           </div>
@@ -232,20 +234,26 @@
     <div class="aboutUs-mini-sec">
       <div class="container-fluid">
         <div class="row">
-          <div class="aboutUs-sec-img col p-0"></div>
-          <div class="aboutUs-sec-content col p-0">
-            <div class="mission-message d-none d-lg-block">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="aboutUs-sec-img col-12 p-0 col-lg-6"></div>
+          <div class="aboutUs-sec-content col-12 col-lg-6 p-0">
+            <div class="mission-message">
+              <div class="container-md-i">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
             </div>
             <div class="row no-gutters aboutUs-sec-heading">
-              <div class="col d-flex flex-column justify-content-start"><span class="sec-desc">little about us</span>
-                <h3 class="sec-title">about book your train</h3>
-                <p class="sec-text m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minima quis tempore praesentium exercitationem earum placeat sunt quod excepturi beatae pariatur vitae molestiae dolorem porro explicabo.</p>
+              <div class="col d-flex flex-column justify-content-start">
+                <div class="container-md-i"><span class="sec-desc">little about us</span>
+                  <h3 class="sec-title">about book your train</h3>
+                  <p class="sec-text m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minima quis tempore praesentium exercitationem earum placeat sunt quod excepturi beatae pariatur vitae molestiae dolorem porro.</p>
+                </div>
               </div>
             </div>
             <div class="row no-gutters sec-mission-message">
               <div class="col d-flex flex-column justify-content-end">
-                <h3 class="sec-title">our project mission statement</h3><span class="sec-desc">message from the desk of our managing  director</span>
+                <div class="container-md-i">
+                  <h3 class="sec-title">our project mission statement</h3><span class="sec-desc">message from the desk of our managing  director</span>
+                </div>
               </div>
             </div>
           </div>
@@ -283,7 +291,7 @@
               </div>
             </div>
           </div>
-          <div class="blog-post col-12 col-md-6 col-lg-4">
+          <div class="blog-post col-12 col-md-12 col-lg-4">
             <div class="card"> 
               <div class="card-img">
                 <div class="post-date"><span>july</span><span>05</span></div><img class="card-img-top img-fluid" src="../../dist/images/blog-posts/post-3.jpg" alt="...">
@@ -305,7 +313,7 @@
           <div class="col sec-heading"><span class="sec-desc">what people say</span>
             <h3 class="sec-title">testimonials</h3>
           </div>
-          <div class="col sec-nav">
+          <div class="col sec-nav d-none d-md-block">
             <div class="swiper-button-next testimonials-swiper-button-next"> <i class="fal fa-chevron-right"></i></div>
             <div class="swiper-button-prev testimonials-swiper-button-prev"><i class="fal fa-chevron-left"></i></div>
           </div>
@@ -380,8 +388,8 @@
     </div>
     <!-- === SCRIPTS === -->
     <script src="../../dist/js/lib/jquery-3.5.1.js"></script>
-    <script src="../../dist/js/lib/bootstrap.bundle.min.js"></script>
     <script src="../../dist/js/lib/swiper-bundle.min.js"></script>
+    <script src="../../dist/js/lib/bootstrap.bundle.min.js"></script>
     <script src="../../dist/js/lib/jquery.nicescroll.min.js"></script>
     <script src="../../dist/js/index.js"></script>
   </body>
