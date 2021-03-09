@@ -1166,7 +1166,7 @@ footer .col ul li:last-of-type a {
 @media screen and (max-width: 1199px) {
   footer {
     background: #2F3A40;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     text-align: center;
   }
 }
