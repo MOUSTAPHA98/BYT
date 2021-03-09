@@ -200,10 +200,11 @@ body {
   width: 15px;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 0 100%);
+  border: 0 !important;
   background: #e04622;
 }
 
-.navigation .container nav .navbar-nav .nav-item:first-of-type::after {
+.navigation .container nav .navbar-nav .nav-item:first-of-type::after, footer .col:nth-of-type(2)::after {
   position: absolute;
   content: "";
   left: -15px;
@@ -212,6 +213,7 @@ body {
   width: 15px;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   background: #e04622;
+  border: 0 !important;
 }
 
 .navigation .container nav .navbar-brand h6 {
@@ -432,10 +434,11 @@ body {
   width: 15px;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 0 100%);
+  border: 0 !important;
   background: #e04622;
 }
 
-.navigation .container nav .navbar-nav .nav-item:first-of-type::after {
+.navigation .container nav .navbar-nav .nav-item:first-of-type::after, footer .col:nth-of-type(2)::after {
   position: absolute;
   content: "";
   left: -15px;
@@ -444,6 +447,7 @@ body {
   width: 15px;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   background: #e04622;
+  border: 0 !important;
 }
 
 .navigation .container nav .navbar-brand h6 {
@@ -1131,6 +1135,40 @@ menu.nav-menu .container .row .col-12 .row .col form button {
 }
 menu.nav-menu .container .row .col-12 .row .col form button i {
   font-size: 1.25rem;
+}
+
+footer {
+  overflow: hidden;
+  color: #879097;
+  background: linear-gradient(to right, #3A4950 55%, #2F3A40 50%, #2F3A40);
+}
+footer span {
+  color: #FFF;
+}
+footer .col:nth-of-type(2) {
+  background: #2F3A40;
+}
+footer .col:nth-of-type(2)::after {
+  background: #2F3A40;
+}
+footer .col ul li {
+  display: inline-block;
+  padding: 0.75rem;
+}
+footer .col ul li a {
+  text-decoration: none;
+  color: #879097;
+}
+footer .col ul li:last-of-type a {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  footer {
+    background: #2F3A40;
+    padding: 1rem 0;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
