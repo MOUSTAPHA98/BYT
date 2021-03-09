@@ -183,7 +183,7 @@ body {
   right: 75px;
 }
 
-.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-2 button {
+.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-4 button {
   position: relative;
   padding: 0.75rem 2rem !important;
   color: #fff !important;
@@ -415,7 +415,7 @@ body {
   right: 75px;
 }
 
-.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-2 button {
+.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-4 button {
   position: relative;
   padding: 0.75rem 2rem !important;
   color: #fff !important;
@@ -512,9 +512,6 @@ body {
 }
 .head-bar .container .row .user-actions .btn:not(:last-of-type):hover {
   color: #e04622;
-}
-.head-bar .container .row .user-actions .req-quote-btn:hover {
-  background: #4aacc0;
 }
 
 @media screen and (max-width: 991px) {
@@ -846,9 +843,9 @@ header .container .row .formm {
 }
 .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .col h3 {
   color: #2c3740;
+  margin-bottom: 1.25rem;
 }
 .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .col span {
-  margin-top: 15px;
   color: #879097;
 }
 
@@ -1044,13 +1041,22 @@ header .container .row .formm {
   background: #4aacc0;
   padding: 30px 0;
 }
-.contactUs-link .container .row .col-lg-10 {
+.contactUs-link .container .row .col-lg-8 {
   padding-bottom: 0;
 }
-.contactUs-link .container .row .col-lg-10 h3, .contactUs-link .container .row .col-lg-10 p {
+.contactUs-link .container .row .col-lg-8 h3, .contactUs-link .container .row .col-lg-8 p {
   color: #FFF;
 }
+.contactUs-link .container .row .col-lg-4 button {
+  text-transform: uppercase;
+  border-radius: 0;
+}
 
+@media screen and (max-width: 991px) {
+  .contactUs-link .col-lg-4 button {
+    margin-top: 1.5rem;
+  }
+}
 @media screen and (max-width: 767px) {
   .contactUs-link {
     padding: 3rem 0;
@@ -1059,29 +1065,72 @@ header .container .row .formm {
   .contactUs-link h3:after {
     display: none !important;
   }
-  .contactUs-link .col-lg-2 button {
+  .contactUs-link .col-lg-4 button {
     margin: 1.5rem 0;
     margin-bottom: 0;
   }
 }
 menu.nav-menu {
-  padding: 0;
   margin: 0;
-  background: #314555;
+  padding: 0;
+  padding-bottom: 80px;
+  background: #3A4950;
   color: #FFF;
 }
-menu.nav-menu .container .row .col .row .col.sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.sec-mission-message, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.sec-mission-message {
-  padding-bottom: 0;
+menu.nav-menu .container .row .col-12 .row .col.sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message {
+  padding: 80px 15px;
 }
-menu.nav-menu .container .row .col .row .col.sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col .row .aboutUs-sec-content .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col .row .aboutUs-sec-content .col.sec-mission-message h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col .row .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col .row .col.sec-mission-message h3 {
+menu.nav-menu .container .row .col-12 .row .col.sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message h3 {
   color: #FFF;
 }
-menu.nav-menu .container .row .col .row .col a {
+menu.nav-menu .container .row .col-12 .row .col a {
   text-transform: uppercase;
   color: #879097;
   padding: 0.75rem 0;
   border-bottom: 1px solid #87909731;
   font-weight: 700;
+}
+menu.nav-menu .container .row .col-12 .row .col h6 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+menu.nav-menu .container .row .col-12 .row .col p {
+  color: #879097;
+}
+menu.nav-menu .container .row .col-12 .row .col .phone, menu.nav-menu .container .row .col-12 .row .col .email {
+  color: #FFF;
+  margin: 0;
+}
+menu.nav-menu .container .row .col-12 .row .col .phone span, menu.nav-menu .container .row .col-12 .row .col .email span {
+  color: #879097;
+}
+menu.nav-menu .container .row .col-12 .row .col form {
+  margin-top: 1rem;
+}
+menu.nav-menu .container .row .col-12 .row .col form input, menu.nav-menu .container .row .col-12 .row .col form button {
+  color: #FFF;
+  outline: none;
+  border: 0;
+  height: 50px;
+}
+menu.nav-menu .container .row .col-12 .row .col form ::placeholder {
+  color: #BBB;
+}
+menu.nav-menu .container .row .col-12 .row .col form input {
+  width: 85%;
+  padding: 0 1.25rem;
+  background: #51626C;
+}
+menu.nav-menu .container .row .col-12 .row .col form button {
+  width: 15%;
+  background: #4aacc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+menu.nav-menu .container .row .col-12 .row .col form button i {
+  font-size: 1.25rem;
 }
 
 /*# sourceMappingURL=index.css.map */
