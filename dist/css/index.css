@@ -1101,7 +1101,7 @@ header .container .row .form form > .row {
 }
 .contactUs-link {
   background: #4aacc0;
-  padding: 50px 0;
+  padding: 40px 0;
   font-size: 0.9rem;
 }
 .contactUs-link .container .row .col-lg-8 {
@@ -1112,7 +1112,6 @@ header .container .row .form form > .row {
 }
 .contactUs-link .container .row .col-lg-4 a {
   text-transform: uppercase;
-  margin-top: 50px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1128,7 +1127,7 @@ header .container .row .form form > .row {
   .contactUs-link h3:after {
     display: none !important;
   }
-  .contactUs-link .col-lg-4 button {
+  .contactUs-link .col-lg-4 a {
     margin: 1.5rem 0;
     margin-bottom: 0;
   }
