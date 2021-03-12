@@ -782,6 +782,9 @@ header .container .row .form form > .row {
 .features .container .row .sec-heading, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .aboutUs-sec-heading, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .sec-mission-message {
   padding: 0 15px;
 }
+.features .container .row .sec-heading .sec-title, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .aboutUs-sec-heading .sec-title, .features .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .sec-mission-message .sec-title, .aboutUs-mini-sec .container-fluid .features .container .row .aboutUs-sec-content .sec-mission-message .sec-title {
+  line-height: 1.25;
+}
 .features .container .row .sec-link {
   display: inline-block;
 }
