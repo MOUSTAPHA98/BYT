@@ -61,18 +61,18 @@ var swiper = new Swiper('.testimonials-swiper', {
 });
 
 // 1. Simple mode, it styles document scrollbar:
-$(document).ready(function () {
-    if (window.innerWidth >= 1024){
-        $(function() {  
-            $("body").niceScroll();
-        });
-        $("body").niceScroll({
-            cursorcolor: "#e04622", // change cursor color in hex
-            scrollspeed: 300, // scrolling speed
-            mousescrollstep: 30, // scrolling speed with 
-            cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
-            cursorborder: "0", // css definition for cursor border
-            smoothscroll: true, // scroll with ease movement
-        });
-    }
-})
+// $(document).ready(function () {
+//     if (window.innerWidth >= 1024){
+//         $(function() {  
+//             $("body").niceScroll();
+//         });
+//         $("body").niceScroll({
+//             cursorcolor: "#e04622", // change cursor color in hex
+//             scrollspeed: 300, // scrolling speed
+//             mousescrollstep: 30, // scrolling speed with 
+//             cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
+//             cursorborder: "0", // css definition for cursor border
+//             smoothscroll: true, // scroll with ease movement
+//         });
+//     }
+// })
