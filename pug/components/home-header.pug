@@ -8,6 +8,61 @@ header.d-flex.align-items-center
                     |BOOK #[span YOUR] TRAIN
                     span.slogan.d-block LOGISTIC & TRANSPORT
                 p.m-0 Lorem ipsum dolor sit amet, consectetur adipisicing elit.#[br] Recusandae beatae possimus earum unde sit.
-                button.btn.btn-primary.border-0 know more
-            .formm.col-12.col-lg-6.col-xl-5
+                a(href="#").btn.btn-primary.border-0 know more
+            .form.col-12.col-lg-6.col-xl-5.rounded
+                form(action="", method="get") 
+                    .row 
+                        .col 
+                            .row
+                                .col 
+                                    label(for="depart") Depart Station
+                            .row 
+                                .col 
+                                    select#depart-station(name="depart")
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                        .col 
+                            .row
+                                .col 
+                                    label(for="arrival") Arrival Station
+                            .row 
+                                .col 
+                                    select#arrival-station(name="arrival")
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                    .row
+                        .col
+                            .row
+                                .col 
+                                    label(for="date") Travelling date
+                            .row 
+                                .col 
+                                    input#travel-date-picker(type="date", name="travel-date-picker")
+                    
+                    .row 
+                        .col 
+                            .row
+                                .col 
+                                    label(for="class") Class
+                            .row 
+                                .col 
+                                    select#class(name="class")
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                        .col 
+                            .row
+                                .col 
+                                    label(for="passengers") Passengers
+                            .row 
+                                .col 
+                                    select#passengers(name="passengers")
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                    .row 
+                        .col 
+                            input(type="submit", value="search tickets") 
 // === End Home Header Section === 

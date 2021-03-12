@@ -101,10 +101,99 @@
         <div class="row">
           <div class="header-heading col-12 col-lg-6 col-xl-7 d-flex flex-column justify-content-center align-items-start"><span>welcome to</span>
             <h6 class="m-0">BOOK <span>YOUR</span> TRAIN<span class="slogan d-block">LOGISTIC & TRANSPORT</span></h6>
-            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Recusandae beatae possimus earum unde sit.</p>
-            <button class="btn btn-primary border-0">know more</button>
+            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Recusandae beatae possimus earum unde sit.</p><a class="btn btn-primary border-0" href="#">know more</a>
           </div>
-          <div class="formm col-12 col-lg-6 col-xl-5"></div>
+          <div class="form col-12 col-lg-6 col-xl-5 rounded">
+            <form action="" method="get"> 
+              <div class="row"> 
+                <div class="col"> 
+                  <div class="row">
+                    <div class="col"> 
+                      <label for="depart">Depart Station</label>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col"> 
+                      <select id="depart-station" name="depart">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col"> 
+                  <div class="row">
+                    <div class="col"> 
+                      <label for="arrival">Arrival Station</label>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col"> 
+                      <select id="arrival-station" name="arrival">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col"> 
+                      <label for="date">Travelling date</label>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col"> 
+                      <input id="travel-date-picker" type="date" name="travel-date-picker">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row"> 
+                <div class="col"> 
+                  <div class="row">
+                    <div class="col"> 
+                      <label for="class">Class</label>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col"> 
+                      <select id="class" name="class">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col"> 
+                  <div class="row">
+                    <div class="col"> 
+                      <label for="passengers">Passengers</label>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col"> 
+                      <select id="passengers" name="passengers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row"> 
+                <div class="col"> 
+                  <input type="submit" value="search tickets">
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </header>
@@ -194,7 +283,7 @@
         <div class="row">
           <div class="col-12 col-md-9 col-lg-4 sec-heading"><span class="sec-desc">amazing features</span>
             <h3 class="sec-title">we offer quick & power solution for transport</h3>
-            <p class="sec-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio assumenda sint quas reiciendis asperiores.</p><a class="sec-link" href="#">our services</a>
+            <p class="sec-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio assumenda sint quas reiciendis asperiores.</p><a class="sec-link rounded" href="#">our services</a>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="feature-item rounded d-flex flex-row align-items-center">
@@ -381,9 +470,7 @@
             <h3 class="sec-title">still have a question ?</h3>
             <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisic perspiciatis officiis ex qui animi quos. Error.</p>
           </div>
-          <div class="col-12 col-lg-4 text-lg-right">
-            <button class="btn border-0">contact us</button>
-          </div>
+          <div class="col-12 col-lg-4 text-lg-right"><a class="btn border-0 rounded" href="#">contact us</a></div>
         </div>
       </div>
     </div>
@@ -433,7 +520,7 @@
             </div>
             <div class="row"> 
               <div class="col">
-                <form class="d-flex align-items-center justify-content-between">
+                <form class="rounded-lg d-flex align-items-center justify-content-between">
                   <input type="email" name="" placeholder="Email Address">
                   <button><i class="fab fa-telegram-plane"></i></button>
                 </form>

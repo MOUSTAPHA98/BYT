@@ -40,16 +40,30 @@ header
                     padding: 5px 0
                     font-family: $mainFontFamily
                     font-weight: 300
-                button
+                a
                     margin-top: $elementP_Y
-                    text-transform: uppercase
-                    border-radius: 0
-                    padding: .9rem 2rem
-                    box-shadow: 1px 1px 5px #00000055
-                    background: $reqBtn-BackColor
-            .formm
-                min-height: 500px
-                background: rgba(255,255,255,.1)
+                    @extend %sec-btn
+            .form
+                background: #ffffff27
+                padding: 50px
+                // padding-right: 0
+                form
+                    input,select
+                        color: $mainDarkTextColor
+                        outline: none
+                        width: 100%
+                        border: 0
+                        // -webkit-appearance: none
+                        // -moz-appearance: none
+                        padding: 0.5rem
+                        padding-left: 1rem
+                        border-radius: 5px
+                    label
+                        color: $mainBackColor
+                    input[type="submit"]
+                        @extend %sec-btn
+                form > .row
+                    margin: 1rem 0
 // START HOME PAGE HEADER STYLE
 
 

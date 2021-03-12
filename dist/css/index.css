@@ -183,12 +183,16 @@ body {
   right: 75px;
 }
 
-.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-4 button {
+.head-bar .container .row .user-actions .req-quote-btn, header .container .row .header-heading a, header .container .row .form form input[type="submit"], .features .container .row .sec-link, .contactUs-link .container .row .col-lg-4 a {
   position: relative;
-  padding: 0.75rem 2rem !important;
+  padding: 0.9rem 2rem !important;
   color: #fff !important;
   background: #e04622;
   display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem !important;
 }
 
 .head-bar .container .row .user-actions .req-quote-btn::after, header .container .row .header-heading > span::after {
@@ -416,12 +420,16 @@ body {
   right: 75px;
 }
 
-.head-bar .container .row .user-actions .req-quote-btn, .contactUs-link .container .row .col-lg-4 button {
+.head-bar .container .row .user-actions .req-quote-btn, header .container .row .header-heading a, header .container .row .form form input[type="submit"], .features .container .row .sec-link, .contactUs-link .container .row .col-lg-4 a {
   position: relative;
-  padding: 0.75rem 2rem !important;
+  padding: 0.9rem 2rem !important;
   color: #fff !important;
   background: #e04622;
   display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem !important;
 }
 
 .head-bar .container .row .user-actions .req-quote-btn::after, header .container .row .header-heading > span::after {
@@ -668,17 +676,27 @@ header .container .row .header-heading p {
   font-family: "karla";
   font-weight: 300;
 }
-header .container .row .header-heading button {
+header .container .row .header-heading a {
   margin-top: 20px;
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.9rem 2rem;
-  box-shadow: 1px 1px 5px #00000055;
-  background: #e04622;
 }
-header .container .row .formm {
-  min-height: 500px;
-  background: rgba(255, 255, 255, 0.1);
+header .container .row .form {
+  background: #ffffff27;
+  padding: 50px;
+}
+header .container .row .form form input, header .container .row .form form select {
+  color: #2c3740;
+  outline: none;
+  width: 100%;
+  border: 0;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+header .container .row .form form label {
+  color: #FFF;
+}
+header .container .row .form form > .row {
+  margin: 1rem 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -765,13 +783,6 @@ header .container .row .formm {
   padding: 0 15px;
 }
 .features .container .row .sec-link {
-  text-decoration: none;
-  font-family: metropolis;
-  color: #FFF;
-  text-transform: uppercase;
-  padding: 1rem 1.75rem;
-  box-shadow: 1px 1px 5px #00000055;
-  background: #e04622;
   display: inline-block;
 }
 .features .container .row p {
@@ -1099,9 +1110,8 @@ header .container .row .formm {
 .contactUs-link .container .row .col-lg-8 h3, .contactUs-link .container .row .col-lg-8 p {
   color: #FFF;
 }
-.contactUs-link .container .row .col-lg-4 button {
+.contactUs-link .container .row .col-lg-4 a {
   text-transform: uppercase;
-  border-radius: 0;
 }
 
 @media screen and (max-width: 991px) {
@@ -1161,6 +1171,7 @@ menu.nav-menu .container .row .col-12 .row .col .phone span, menu.nav-menu .cont
 menu.nav-menu .container .row .col-12 .row .col form {
   margin-top: 1rem;
   font-size: 0.9rem;
+  overflow: hidden;
 }
 menu.nav-menu .container .row .col-12 .row .col form input, menu.nav-menu .container .row .col-12 .row .col form button {
   color: #FFF;
