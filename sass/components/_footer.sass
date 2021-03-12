@@ -1,0 +1,36 @@
+// START FOOTER
+footer
+    font-size: .9rem
+    overflow: hidden
+    color: $secDarkTextColor
+    background: linear-gradient(to right, #3A4950 55%, #2F3A40 50%, #2F3A40)
+    a
+        color: $mainBackColor
+        text-decoration: none
+        &:hover
+            color: $mainBackColor
+    .col:nth-of-type(2)
+        background: #2F3A40
+        @extend %el-slope-cut-LR
+        &::after
+            background: #2F3A40
+    .col
+        ul
+            li
+                display: inline-block
+                padding: .75rem
+                a
+                    text-decoration: none
+                    color: $secDarkTextColor
+            li:last-of-type
+                a
+                    padding-right: 0
+// END FOOTER
+
+// START FOOTER MEDIA QUERIES
+@media screen and ( max-width:1199px  )
+    footer
+        background: #2F3A40
+        padding: 1.5rem 0
+        text-align: center
+// END FOOTER MEDIA QUERIES

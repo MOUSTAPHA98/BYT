@@ -1,5 +1,4 @@
 // START HOME PAGE HEADER STYLE
-
 header
     min-height: 625px
     background: linear-gradient(to top, rgba(0,0,0,.6),rgba(0,0,0,.4)) ,url('../../dist/images/header/header-bg.jpg') center no-repeat
@@ -18,8 +17,13 @@ header
                     font-size: 16px
                     font-weight: 700
                     padding: .5rem 2rem
-                    padding-right: 3rem
-                    clip-path: polygon(0 0, 92.5% 0, 100% 100%, 0% 100%)
+                    @extend %el-slope-cut-RL
+                    display: block
+                    position: relative
+                    &::after
+                        clip-path: polygon(0 0, 0% 100%, 100% 100%)
+                        background: $mainBackColor
+                        border: 0 !important
                 h6
                     padding: $elementP
                     font-size: 3.75rem
@@ -47,3 +51,35 @@ header
                 min-height: 500px
                 background: rgba(255,255,255,.1)
 // START HOME PAGE HEADER STYLE
+
+
+    
+// START HOME PAGE HEADER MEDIA QUERIES
+@media screen and ( max-width:767px )
+    header
+        text-align: center
+        justify-content: center
+        align-items: center
+        .header-heading
+            align-items: center !important
+            span
+                &::after
+                    display: none
+            h6
+                    font-size: 3rem
+                    font-weight: 900
+                    span
+                        font-weight: 300
+                    .slogan
+                        font-family: $mainFontFamily
+                        font-size: .75rem
+                        letter-spacing: .5rem
+                        font-weight: 300
+@media screen and ( max-width:991px )
+    header
+        padding: $secP
+        .header-heading
+            margin-bottom: $secP_Y
+
+
+// END HOME PAGE HEADER MEDIA QUERIES

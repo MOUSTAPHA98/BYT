@@ -191,14 +191,13 @@ body {
   display: inline-block;
 }
 
-.head-bar .container .row .user-actions .req-quote-btn::after {
+.head-bar .container .row .user-actions .req-quote-btn::after, header .container .row .header-heading > span::after {
   position: absolute;
   content: "";
-  right: -15px;
+  right: -14px;
   top: 0;
   height: 100%;
   width: 15px;
-  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 0 100%);
   border: 0 !important;
   background: #e04622;
@@ -207,7 +206,7 @@ body {
 .navigation .container nav .navbar-nav .nav-item:first-of-type::after, footer .col:nth-of-type(2)::after {
   position: absolute;
   content: "";
-  left: -15px;
+  left: -14px;
   top: 0;
   height: 101%;
   width: 15px;
@@ -425,14 +424,13 @@ body {
   display: inline-block;
 }
 
-.head-bar .container .row .user-actions .req-quote-btn::after {
+.head-bar .container .row .user-actions .req-quote-btn::after, header .container .row .header-heading > span::after {
   position: absolute;
   content: "";
-  right: -15px;
+  right: -14px;
   top: 0;
   height: 100%;
   width: 15px;
-  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 0 100%);
   border: 0 !important;
   background: #e04622;
@@ -441,7 +439,7 @@ body {
 .navigation .container nav .navbar-nav .nav-item:first-of-type::after, footer .col:nth-of-type(2)::after {
   position: absolute;
   content: "";
-  left: -15px;
+  left: -14px;
   top: 0;
   height: 101%;
   width: 15px;
@@ -486,36 +484,46 @@ body {
 }
 
 .head-bar {
-  overflow: hidden;
-  letter-spacing: -2px;
+  font-size: 14px !important;
   background: linear-gradient(to right, #eaedf0 50%, #FFF 50%, #FFF);
 }
 .head-bar .container {
   background: #eaedf0;
 }
 .head-bar .container .row {
-  align-items: center;
   background: linear-gradient(to right, #eaedf0 80%, #FFF);
 }
 .head-bar .container .row .mail-us .mail-link {
-  font-weight: 500;
   text-decoration: none;
   color: #54667a;
 }
 .head-bar .container .row .mail-us .mail-link:hover {
-  color: #e04622;
+  text-decoration: underline;
 }
 .head-bar .container .row .user-actions .btn {
-  font-weight: 500;
   padding: 0.75rem 1rem;
   text-transform: uppercase;
   color: #54667a;
 }
-.head-bar .container .row .user-actions .btn:not(:last-of-type) {
-  border-left: 1px solid #00000020 !important;
-}
-.head-bar .container .row .user-actions .btn:not(:last-of-type):hover {
+.head-bar .container .row .user-actions .btn:hover {
   color: #e04622;
+}
+.head-bar .container .row .user-actions .btn:not(:last-of-type) {
+  border-left: 1px solid #00000025 !important;
+}
+.head-bar .container .row .user-actions .req-quote-btn {
+  font-weight: 600;
+  transition: 0.3s !important;
+}
+.head-bar .container .row .user-actions .req-quote-btn::after {
+  transition: 0.3s !important;
+  right: -15px;
+}
+.head-bar .container .row .user-actions .req-quote-btn:hover {
+  background: #4aacc0;
+}
+.head-bar .container .row .user-actions .req-quote-btn:hover::after {
+  background: #4aacc0;
 }
 
 @media screen and (max-width: 991px) {
@@ -632,8 +640,13 @@ header .container .row .header-heading > span {
   font-size: 16px;
   font-weight: 700;
   padding: 0.5rem 2rem;
-  padding-right: 3rem;
-  clip-path: polygon(0 0, 92.5% 0, 100% 100%, 0% 100%);
+  display: block;
+  position: relative;
+}
+header .container .row .header-heading > span::after {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background: #FFF;
+  border: 0 !important;
 }
 header .container .row .header-heading h6 {
   padding: 20px 0;
@@ -668,6 +681,40 @@ header .container .row .formm {
   background: rgba(255, 255, 255, 0.1);
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  header .header-heading {
+    align-items: center !important;
+  }
+  header .header-heading span::after {
+    display: none;
+  }
+  header .header-heading h6 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  header .header-heading h6 span {
+    font-weight: 300;
+  }
+  header .header-heading h6 .slogan {
+    font-family: "karla";
+    font-size: 0.75rem;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 991px) {
+  header {
+    padding: 80px 0;
+  }
+  header .header-heading {
+    margin-bottom: 80px;
+  }
+}
 .top-destinations {
   padding-top: 80px;
 }
@@ -1043,7 +1090,8 @@ header .container .row .formm {
 }
 .contactUs-link {
   background: #4aacc0;
-  padding: 30px 0;
+  padding: 50px 0;
+  font-size: 0.9rem;
 }
 .contactUs-link .container .row .col-lg-8 {
   padding-bottom: 0;
@@ -1082,25 +1130,26 @@ menu.nav-menu {
   color: #FFF;
 }
 menu.nav-menu .container .row .col-12 .row .col.sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message {
-  padding: 80px 15px;
+  padding: 50px 15px;
 }
 menu.nav-menu .container .row .col-12 .row .col.sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.aboutUs-sec-heading h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .col-12 .row .aboutUs-sec-content .col.sec-mission-message h3, menu.nav-menu .container .aboutUs-mini-sec .container-fluid .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message h3, .aboutUs-mini-sec .container-fluid menu.nav-menu .container .row .aboutUs-sec-content .col-12 .row .col.sec-mission-message h3 {
   color: #FFF;
+  font-size: 1.4rem;
 }
 menu.nav-menu .container .row .col-12 .row .col a {
   text-transform: uppercase;
   color: #879097;
   padding: 0.75rem 0;
   border-bottom: 1px solid #87909731;
-  font-weight: 700;
+  font-weight: 600;
 }
 menu.nav-menu .container .row .col-12 .row .col h6 {
   color: #FFF;
   text-transform: uppercase;
-  font-size: 1.25rem;
 }
 menu.nav-menu .container .row .col-12 .row .col p {
   color: #879097;
+  font-size: 0.9rem;
 }
 menu.nav-menu .container .row .col-12 .row .col .phone, menu.nav-menu .container .row .col-12 .row .col .email {
   color: #FFF;
@@ -1111,6 +1160,7 @@ menu.nav-menu .container .row .col-12 .row .col .phone span, menu.nav-menu .cont
 }
 menu.nav-menu .container .row .col-12 .row .col form {
   margin-top: 1rem;
+  font-size: 0.9rem;
 }
 menu.nav-menu .container .row .col-12 .row .col form input, menu.nav-menu .container .row .col-12 .row .col form button {
   color: #FFF;
@@ -1120,6 +1170,7 @@ menu.nav-menu .container .row .col-12 .row .col form input, menu.nav-menu .conta
 }
 menu.nav-menu .container .row .col-12 .row .col form ::placeholder {
   color: #BBB;
+  font-size: 0.9rem;
 }
 menu.nav-menu .container .row .col-12 .row .col form input {
   width: 85%;
@@ -1138,11 +1189,16 @@ menu.nav-menu .container .row .col-12 .row .col form button i {
 }
 
 footer {
+  font-size: 0.9rem;
   overflow: hidden;
   color: #879097;
   background: linear-gradient(to right, #3A4950 55%, #2F3A40 50%, #2F3A40);
 }
-footer span {
+footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+footer a:hover {
   color: #FFF;
 }
 footer .col:nth-of-type(2) {
